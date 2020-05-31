@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2019.12.11
+# Updated 2020.05.31
 # =======================================================
 
 # =======================================================
@@ -30,6 +30,7 @@ api-glb-msp.smoot.apple.com
 api-glb-nyc.smoot.apple.com
 api-glb-osa.smoot.apple.com
 api-glb-sea.smoot.apple.com
+api-glb-tpe.smoot.apple.com
 api-glb.smoot.apple.com
 api.books.apple.com
 api.smoot-apple.com.akadns.net
@@ -67,7 +68,7 @@ mt-ingestion-service-pv.itunes-apple.com.akadns.net
 pancake.apple.com
 partiality.itunes.apple.com
 pcr.apple.com
-play.itunes.apple.com
+#play.itunes.apple.com   #BREAKS App Store
 radarsubmissions.apple.com
 radio-activity.itunes.apple.com
 radio-services.itunes.apple.com
@@ -115,6 +116,7 @@ outreach.io
 1.gravatar.com
 186232.engine.mobileapptracking.com
 19034.engine.mobileapptracking.com
+1qt-1.tlnk.io
 2n79.adj.st
 5-7-2-ios.network.ingest.crittercism.com
 5-7-3-ios.appload.ingest.crittercism.com
@@ -135,12 +137,14 @@ outreach.io
 95m-w.tlnk.io
 98kz-alternate.app.link
 98kz-alternate.test-app.link
+a.line.me
 a1.liveable.com.cn
 aan.amazon-adsystem.com
 activeoffers.appromoters.com
 ad.doubleclick.net
 ad.moboclick09.com
 adobemobiledemo.sc.omtrdc.net
+ads-api.ft.com
 ads.td.com
 aeroplan.sc.omtrdc.net
 af4a.adj.st
@@ -169,7 +173,6 @@ api.yausiu.com
 api3.siftscience.com
 api97.feedmob.com
 app-measurement.com
-app-valley.vip
 app.adjust.com
 app.appsflyer.com
 app.getsentry.com
@@ -205,6 +208,7 @@ c.sdkclick.com
 c.sdkclickurl.com
 canvaz.scdn.co
 ccloud.sdkclickurl.com
+cdn.brandmetrics.com
 cdn.builds.io
 cdn.heapanalytics.com
 cdn.image2.cloudmobi.net
@@ -223,6 +227,7 @@ click.baburnadir.com
 click.gowadogo.com
 click.mybest.app
 click4.trooperads.com
+clientstream.intuit.launchdarkly.com
 clientstream.launchdarkly.com
 cloudconfig.googleapis.com
 cm073.getui.igexin.com
@@ -235,6 +240,7 @@ connect.facebook.net
 content.appvalley.vip
 cpiclks.mobismarter.com
 crcdn01.adnxs.com
+crs-event.line.me
 csi.gstatic.com
 culturedcode.com
 custom.bnc.lt
@@ -257,9 +263,12 @@ dtag.td.com
 dumps.to
 duolingo-leaderboards-prod.duolingo.com
 e3e85fbda0b93c236cc70b01a5c0a393.ulink.adjust.com
+edge.experimentation.intuit.com
 edk26953.live.dynatrace.com
 email-marriott.com
 enjoy.ipacdn8.pw
+entitlement.partner.co.il
+es.airbnb.com
 es.hoteles.com
 es.play.pl
 exam.pl
@@ -294,6 +303,7 @@ hotels.cn
 hotels.tlnk.io
 html.applift.com
 https://notify.bugsnag.com/
+ifoodie.tw
 ihg.onelink.me
 ihgsixcontinentshote.tt.omtrdc.net
 iid.googleapis.com
@@ -357,6 +367,7 @@ metrics-prod.barclaycardus.com
 metrics.barclaycardus.com
 mobile.confsettings.com
 mobile.eum-appdynamics.com
+mobile.useinsider.com
 mobilegames.com
 msh.amazon.com
 mylink.komect.com
@@ -381,6 +392,7 @@ psc7r-alternate.app.link
 puex.adj.st
 q4mn.adj.st
 q6f7k.app.goo.gl
+qgoj.app.link
 qk237.app.goo.gl
 r.uber.com
 redirect.appleads-trk.com
@@ -430,6 +442,7 @@ smetrics.td.com
 social.duolingo.com
 socialize.us1.gigya.com
 spike-app.com
+spoor-api.ft.com
 spykemedia.g2afse.com
 ssl.google-analytics.com
 staging0.doorcrawl.com
@@ -437,6 +450,7 @@ star.c10r.facebook.com
 starbucks.app.link
 static.cloudmobi.net
 stest.zimperium.com
+stickershop.line-scdn.net
 stracking.rogers.com
 sudoapp.me
 t.apptocash.com
@@ -466,7 +480,6 @@ track.skipper.tech
 track.zoomd.com
 tracking.3drating.com
 tracking.yohoads.com
-trip.uber.com
 tripadvisor.onelink.me
 trk.iskyworker.com
 trk.superads.cn
@@ -479,6 +492,7 @@ ubnt.i.lithium.com
 ubr.to
 uetv.adj.st
 uk.hotels.com
+unification.useinsider.com
 unitedwifi.com
 usw2.go4.xyz.duunion.com
 v3.flybits.com
@@ -507,28 +521,6 @@ www.espanol.marriott.com
 www.facebook.com
 www.fi.kayak.com
 www.google-analytics.com
-www.google.at
-www.google.be
-www.google.co.id
-www.google.co.in
-www.google.co.kr
-www.google.co.nz
-www.google.co.th
-www.google.co.za
-www.google.com
-www.google.de
-www.google.es
-www.google.fi
-www.google.fr
-www.google.hu
-www.google.ie
-www.google.nl
-www.google.no
-www.google.pl
-www.google.pt
-www.google.ro
-www.google.ru
-www.google.se
 www.googletagmanager.com
 www.gr.kayak.com
 www.harvesttrk.com
@@ -570,6 +562,7 @@ www.kayak.se
 www.kayak.sg
 www.marriott.co.kr
 www.marriott.com.au
+www.marriott.fr
 www.movieboxpro.app
 www.nz.kayak.com
 www.ritzcarlton.com
