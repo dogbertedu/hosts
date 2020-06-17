@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2020.05.31
+# Updated 2020.06.17
 # =======================================================
 
 # =======================================================
@@ -19,12 +19,14 @@ iadsdk.apple.com
 # =======================================================
 # Apple Privacy
 # =======================================================
+#play.itunes.apple.com   #BREAKS App Store
 api-aka.smoot.apple.com
 api-glb-ash.smoot.apple.com
 api-glb-bos.smoot.apple.com
 api-glb-chi.smoot.apple.com
 api-glb-dal.smoot.apple.com
 api-glb-den.smoot.apple.com
+api-glb-hkg.smoot.apple.com
 api-glb-lon.smoot.apple.com
 api-glb-msp.smoot.apple.com
 api-glb-nyc.smoot.apple.com
@@ -46,6 +48,7 @@ c.apple.news
 cdn.smoot.apple.com
 cf.iadsdk.apple.com
 clientflow.apple.com
+configuration.ls.apple.com
 cstat.apple.com
 daypass.api-aka.smoot.apple.com
 daypass.api-glb-ash.smoot.apple.com
@@ -68,14 +71,16 @@ mt-ingestion-service-pv.itunes-apple.com.akadns.net
 pancake.apple.com
 partiality.itunes.apple.com
 pcr.apple.com
-#play.itunes.apple.com   #BREAKS App Store
 radarsubmissions.apple.com
 radio-activity.itunes.apple.com
 radio-services.itunes.apple.com
 redirect.appleads-trk.com
+smp-device-content.apple.com
 stocks-analytics-events.apple.com
 tr.iadsdk.apple.com
 valid.apple.com
+weather-analytics-events.apple.com
+xp.apple.com
 
 # =======================================================
 # Spotify: Depreciated. Using latest list from:
@@ -130,6 +135,7 @@ outreach.io
 5-9-4-ios.network.ingest.crittercism.com
 5-9-4-ios.userflows.ingest.crittercism.com
 5398a58fe7848f005043fe6e.c00.adobe.com
+56bw.adj.st
 593e2268-api.spatialbuzz.net
 593e2268-config.spatialbuzz.net
 6827fad15a68f1dfe032538f95603f42c8107c6c-4dc2aa82bc5e.cdn.forter.com
@@ -139,6 +145,7 @@ outreach.io
 98kz-alternate.test-app.link
 a.line.me
 a1.liveable.com.cn
+a3yqjsrczwwp.com
 aan.amazon-adsystem.com
 activeoffers.appromoters.com
 ad.doubleclick.net
@@ -162,6 +169,7 @@ aoyou.idealads.net
 api.apptentive.com
 api.box.com
 api.c1oudmobi.net
+api.fouadraheb.com
 api.instagram.com
 api.jumpraw.com
 api.locuslabs.com
@@ -179,9 +187,11 @@ app.getsentry.com
 app.igodigital.com
 app.intuit.launchdarkly.com
 appinstall.click
+appldnld.apple.com
 apps.applift.com
 appvalley.vip
 appversion.content.pbp.io
+apt.fouadraheb.com
 ar.tripadvisor.com
 assets.adobedtm.com
 assets.locuslabs.com
@@ -196,6 +206,7 @@ bingmob.offerstrack.net
 biz.uber.com
 blast.duolingo.com
 bmw-a4a.appspot.com
+bnc.lt
 boingo.events
 bonjour.uber.com
 britishairways.sc.omtrdc.net
@@ -221,6 +232,7 @@ cdn46.forter.com
 cegnotificationsvc-e2e.mint.com
 cf.adxcel.com
 chathelper.stopbreathethink.org
+citimobile-alternate.app.link
 citimobile.app.link
 cl.untildogtop.com
 click.baburnadir.com
@@ -239,6 +251,7 @@ config.otherlevels.com
 connect.facebook.net
 content.appvalley.vip
 cpiclks.mobismarter.com
+crashlyticsreports-pa.googleapis.com
 crcdn01.adnxs.com
 crs-event.line.me
 csi.gstatic.com
@@ -265,12 +278,15 @@ duolingo-leaderboards-prod.duolingo.com
 e3e85fbda0b93c236cc70b01a5c0a393.ulink.adjust.com
 edge.experimentation.intuit.com
 edk26953.live.dynatrace.com
+elevation.ms.datatask.net
 email-marriott.com
+ems.aeroplan.com
 enjoy.ipacdn8.pw
 entitlement.partner.co.il
 es.airbnb.com
 es.hoteles.com
 es.play.pl
+esf397vsf1nk.com
 exam.pl
 excess.duolingo.com
 facebook.com
@@ -278,6 +294,7 @@ fcmtoken.googleapis.com
 fidoxtra.prizelogic.com
 firebasedynamiclinks-ipv4.googleapis.com
 firebasedynamiclinks-ipv6.googleapis.com
+firebaseinstallations.googleapis.com
 firebaselogging-pa.googleapis.com
 firebaseremoteconfig.googleapis.com
 firestore.googleapis.com
@@ -285,11 +302,13 @@ flamingo-api.herokuapp.com
 fls-na.amazon.com
 fonts.googleapis.com
 fonts.gstatic.com
+fr.airbnb.ca
 fr.hotels.com
 fra-col.eum-appdynamics.com
 g9i.sevmob.com
 gem-dev.aexp.com
 generalmotorscorporation.sc.omtrdc.net
+getutm.app
 go.onelink.me
 graph.facebook.com
 growth-pa.googleapis.com
@@ -313,8 +332,10 @@ in.appcenter.ms
 in.qbk1.com
 info.catch.gift
 internal.airbnb.com
+interst12.com
 invite-alternate.ritual.co
 invite.duolingo.com
+irs1.4sqi.net
 it.hotels.com
 jpmc-consumer-acceptor.zimperium.com
 js-sec.indexww.com
@@ -323,6 +344,7 @@ klook.onelink.me
 kswj.unionapps.info
 limebike-alternate.app.link
 limebike.app.link
+limneos.net
 link.bcnmonetize.com
 link.sudoapp.me
 links.doordash.com
@@ -363,6 +385,7 @@ md-hl.apptimize.com
 media.appm.app
 mediaboxhd.net
 merchantgeo.secure.force.com
+mesu.apple.com
 metrics-prod.barclaycardus.com
 metrics.barclaycardus.com
 mobile.confsettings.com
@@ -404,6 +427,7 @@ ritzcarlton-h.assetsadobe.com
 rogers-fido.janraincapture.com
 rogers-fidoapp-webapi.prizelogic.com
 rpxnow.com
+ru.airbnb.com
 s.pinimg.com
 s2s.adjust.com
 safebrowsing.googleapis.com
@@ -455,6 +479,7 @@ stracking.rogers.com
 sudoapp.me
 t.apptocash.com
 t.uber.com
+t146.test.klook.io
 t31.test.klook.io
 tags.otherlevels.com
 targeting-azalea.outpace.com
@@ -464,6 +489,7 @@ test-retail.sc.com
 texttospeech.googleapis.com
 thingortwo.g2afse.com
 tkclick.smardroid.com
+topstore.vip
 tpl-001.aflemy.com
 track.56txs4.com
 track.adstack.co
@@ -494,6 +520,7 @@ uetv.adj.st
 uk.hotels.com
 unification.useinsider.com
 unitedwifi.com
+upgulpinon.com
 usw2.go4.xyz.duunion.com
 v3.flybits.com
 verify.spin.app
@@ -510,9 +537,42 @@ web-stage.sixt.io
 wh5p-alternate.app.link
 ws.otherlevels.com
 ws.pusherapp.com
+www.airbnb.at
+www.airbnb.be
+www.airbnb.cat
+www.airbnb.ch
+www.airbnb.cl
+www.airbnb.cn
+www.airbnb.co.in
+www.airbnb.co.kr
+www.airbnb.co.nz
+www.airbnb.co.uk
+www.airbnb.com.ar
+www.airbnb.com.au
+www.airbnb.com.bz
+www.airbnb.com.co
+www.airbnb.com.mt
+www.airbnb.com.pe
+www.airbnb.com.tr
+www.airbnb.com.tw
+www.airbnb.cz
+www.airbnb.de
+www.airbnb.dk
+www.airbnb.es
+www.airbnb.fr
+www.airbnb.gr
+www.airbnb.ie
+www.airbnb.it
+www.airbnb.jp
+www.airbnb.nl
+www.airbnb.no
+www.airbnb.pt
+www.airbnb.ru
+www.airbnb.se
 www.amazon.cn
 www.amazon.com.br
 www.baidu.com
+www.bestdisplayformats.com
 www.ca.kayak.com
 www.cloudcheck.net
 www.cn.kayak.com
@@ -521,6 +581,7 @@ www.espanol.marriott.com
 www.facebook.com
 www.fi.kayak.com
 www.google-analytics.com
+www.google.dk
 www.googletagmanager.com
 www.gr.kayak.com
 www.harvesttrk.com
@@ -532,6 +593,7 @@ www.instagram.com
 www.kayak.ae
 www.kayak.ch
 www.kayak.cl
+www.kayak.co.cr
 www.kayak.co.id
 www.kayak.co.in
 www.kayak.co.jp
@@ -542,7 +604,9 @@ www.kayak.com.ar
 www.kayak.com.au
 www.kayak.com.br
 www.kayak.com.co
+www.kayak.com.ec
 www.kayak.com.hk
+www.kayak.com.hn
 www.kayak.com.mx
 www.kayak.com.my
 www.kayak.com.pe
@@ -560,8 +624,10 @@ www.kayak.pt
 www.kayak.ru
 www.kayak.se
 www.kayak.sg
+www.limneos.net
 www.marriott.co.kr
 www.marriott.com.au
+www.marriott.com.cn
 www.marriott.fr
 www.movieboxpro.app
 www.nz.kayak.com
