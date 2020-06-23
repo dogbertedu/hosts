@@ -80,7 +80,7 @@ stocks-analytics-events.apple.com
 tr.iadsdk.apple.com
 valid.apple.com
 weather-analytics-events.apple.com
-xp.apple.com
+#xp.apple.com #BREAKS MANY APPLE SERVICES (and makes phone slow)
 
 # =======================================================
 # Spotify: Depreciated. Using latest list from:
@@ -226,7 +226,7 @@ cdn.image2.cloudmobi.net
 cdn.segment.com
 cdn.spatialbuzz.com
 cdn0.forter.com
-cdn1.hk.opensnap.com
+#cdn1.hk.opensnap.com #BREAKS OPENRICE Pics in Apple Maps
 cdn4.forter.com
 cdn46.forter.com
 cegnotificationsvc-e2e.mint.com
@@ -274,7 +274,6 @@ doordash.bttn.io
 drd.sh
 dtag.td.com
 dumps.to
-duolingo-leaderboards-prod.duolingo.com
 e3e85fbda0b93c236cc70b01a5c0a393.ulink.adjust.com
 edge.experimentation.intuit.com
 edk26953.live.dynatrace.com
@@ -605,6 +604,7 @@ www.kayak.com.au
 www.kayak.com.br
 www.kayak.com.co
 www.kayak.com.ec
+www.kayak.com.pr
 www.kayak.com.hk
 www.kayak.com.hn
 www.kayak.com.mx
