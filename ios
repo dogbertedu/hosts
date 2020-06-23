@@ -48,7 +48,7 @@ c.apple.news
 cdn.smoot.apple.com
 cf.iadsdk.apple.com
 clientflow.apple.com
-configuration.ls.apple.com
+#configuration.ls.apple.com #likely breaks weather
 cstat.apple.com
 daypass.api-aka.smoot.apple.com
 daypass.api-glb-ash.smoot.apple.com
