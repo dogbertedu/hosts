@@ -68,7 +68,7 @@ humb.apple.com
 iadsdk.apple.com
 idiagnostics.apple.com
 iphonesubmissions.apple.com
-keyvalueservice.fe.apple-dns.net
+#keyvalueservice.fe.apple-dns.net #excessive dns lookups
 metrics.icloud.com
 mt-ingestion-service-mr22.itunes-apple.com.akadns.net
 mt-ingestion-service-pv.itunes-apple.com.akadns.net
@@ -538,7 +538,6 @@ web-dev.sixt.io
 web-stage.sixt.io
 wh5p-alternate.app.link
 ws.otherlevels.com
-ws.pusherapp.com
 www.airbnb.at
 www.airbnb.be
 www.airbnb.cat
