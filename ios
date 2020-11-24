@@ -156,12 +156,14 @@
 ||assetsadobe.com^$important
 ||aweibo.com^$important
 ||baidu.com^$important
+||bazaarvoice.com^$important
 ||bcnmonetize.com^$important
 ||bestdisplayformats.com^$important
 ||biz.uber.com^$important
 ||blast.duolingo.com^$important
 ||boingo.events^$important
 ||bonjour.uber.com^$important
+||branch.io^$important
 ||brandmetrics.com^$important
 ||braze.com^$important
 ||braze.eu^$important
@@ -171,6 +173,7 @@
 ||ca.kayak.com^$important
 ||careyads.com^$important
 ||catch.gift^$important
+||cercube.com^$important
 ||cloudcheck.net^$important
 ||cloudconfig.googleapis.com^$important
 ||cloudmobi.net^$important
@@ -178,6 +181,7 @@
 ||cn.tripadvisor.com^$important
 ||confsettings.com^$important
 ||connect.facebook.net^$important
+||consumerinsights.api.intuit.com^$important
 ||contentful.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
 ||crittercism.com^$important
@@ -197,6 +201,7 @@
 ||drd.sh^$important
 ||dtag.td.com^$important
 ||dumps.to^$important
+||duolingo.cn^$important
 ||duunion.com^$important
 ||dynatrace.com^$important
 ||edge.experimentation.intuit.com^$important
@@ -229,16 +234,20 @@
 ||fr.hotels.com^$important
 ||gameing-site.stream^$important
 ||gem-dev.aexp.com^$important
+||getrocketapp.io^$important
 ||getsentry.com^$important
 ||getutm.app^$important
 ||ghost.io^$important
 ||gigya.com^$important
+||goals.api.intuit.com^$important
 ||google-analytics.com^$important
 ||google.dk^$important
+||googleadservices.com^$important
 ||googletagmanager.com^$important
 ||gr.kayak.com^$important
 ||graph.facebook.com^$important
 ||gravatar.com^$important
+||graylog.textnow.me^$important
 ||growth-pa.googleapis.com^$important
 ||harvesttrk.com^$important
 ||heapanalytics.com^$important
@@ -255,6 +264,7 @@
 ||igodigital.com^$important
 ||ihg.com.cn^$important
 ||iid.googleapis.com^$important
+||in-addr.arpa^$important
 ||in.appcenter.ms^$important
 ||indexww.com^$important
 ||instagram.com^$important
@@ -330,6 +340,7 @@
 ||maps.google.nl^$important
 ||maps.google.se^$important
 ||marketing.kijiji.ca^$important
+||marketingcloudapis.com^$important
 ||marriott.co.kr^$important
 ||marriott.com.au^$important
 ||marriott.com.cn^$important
@@ -337,6 +348,7 @@
 ||media-412.com^$important
 ||metrics-prod.barclaycardus.com^$important
 ||metrics.barclaycardus.com^$important
+||mintbillpayapi.finance.intuit.com^$important
 ||mob193.com^$important
 ||mobgc.com^$important
 ||mobile-bt.com^$important
@@ -345,9 +357,15 @@
 ||mobismarter.com^$important
 ||moblin.com^$important
 ||moboclick09.com^$important
+||monitoring-sdk.experimentation.intuit.com^$important
 ||movieboxpro.app^$important
+||mtalk.google.com^$important
+||mychelsea.co.uk^$important
+||myfonts.net^$important
+||nextinsure.com^$important
 ||nz.kayak.com^$important
 ||o5o4o6.com^$important
+||ocsp.sectigo.com^$important
 ||offerstrack.net^$important
 ||omtrdc.net^$important
 ||onelink.me^$important
@@ -366,6 +384,7 @@
 ||plcontent.com^$important
 ||plus.uber.com^$important
 ||prf.hn^$important
+||privatestats.whatsapp.net^$important
 ||prizelogic.com^$important
 ||qbk1.com^$important
 ||qualtrics.com^$important
@@ -388,6 +407,7 @@
 ||seven.app^$important
 ||sevmob.com^$important
 ||sgdmobile.com^$important
+||shifen.com^$important
 ||shuga.co^$important
 ||siftscience.com^$important
 ||sixt.at^$important
@@ -421,6 +441,7 @@
 ||test-app.link^$important
 ||test.klook.io^$important
 ||thetechloft.com^$important
+||tiqcdn.com^$important
 ||tlnk.io^$important
 ||tripadvisor.ch^$important
 ||tripadvisor.co.kr^$important
@@ -445,6 +466,7 @@
 ||usbla.net^$important
 ||usebutton.com^$important
 ||useinsider.com^$important
+||uxcam.com^$important
 ||vk.com^$important
 ||vn.kayak.com^$important
 ||vouchers.uber.com^$important
