@@ -27,6 +27,18 @@
 #xp.apple.com 					#Breaks apple services (and makes phone slow)
 
 # =======================================================
+# Apple Whitelist from other lists
+# =======================================================
+@@||se-edge.itunes.apple.com
+@@||gsp-ssl.ls.apple.com
+
+
+# =======================================================
+# Non-Apple Whitelist
+# =======================================================
+@@||cloud.culturedcode.com
+
+# =======================================================
 # Apple Privacy
 # =======================================================
 ||api.books.apple.com^$important
@@ -213,7 +225,6 @@
 ||es.play.pl^$important
 ||espanol.marriott.com^$important
 ||eum-appdynamics.com^$important
-||excess.duolingo.com^$important
 ||facebook.com^$important
 ||fcmtoken.googleapis.com^$important
 ||feedmob.com^$important
