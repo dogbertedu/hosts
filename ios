@@ -32,11 +32,14 @@
 @@||se-edge.itunes.apple.com
 @@||gsp-ssl.ls.apple.com
 @@||gsp64-ssl.ls.apple.com
+@@||gsp64-ssl.ls-apple.com.akadns.net
 
 # =======================================================
 # Non-Apple Whitelist
 # =======================================================
 @@||cloud.culturedcode.com
+@@||ap.spotify.com
+@@||meditation-mobile.firebaseio.com
 
 # =======================================================
 # Apple Privacy
