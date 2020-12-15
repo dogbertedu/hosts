@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2020.11.24
+# Updated 2020.12.15
 # =======================================================
 
 # =======================================================
@@ -19,7 +19,7 @@
 # Apple iOS Update (no longer blocked as of 2019.12.11)
 # =======================================================
 #mesu.apple.com 				Software update
-#smp-device-content.apple.com 	Location services
+#smp-device-content.apple.com 	Apple Pay (and Location Services?)
 #configuration.ls.apple.com 	Location services incl Weather app
 #bag.itunes.apple.com 			AppStore purchases
 #play.itunes.apple.com			AppStore purchases
@@ -33,6 +33,8 @@
 @@||gsp-ssl.ls.apple.com
 @@||gsp64-ssl.ls.apple.com
 @@||gsp64-ssl.ls-apple.com.akadns.net
+@@||stocks-sparkline.apple.com
+
 
 # =======================================================
 # Non-Apple Whitelist
@@ -40,13 +42,21 @@
 @@||cloud.culturedcode.com
 @@||ap.spotify.com
 @@||meditation-mobile.firebaseio.com
+@@||audio-fa.scdn.co
+@@||audio4-ak-spotify-com.akamaized.net
+@@||securetoken.googleapis.com
+
 
 # =======================================================
 # Apple Privacy
 # =======================================================
 ||api.books.apple.com^$important
 ||api.smoot-apple.com.akadns.net^$important
+||app-site-association.cdn-apple.com^$important
+||app-site-association.g.aaplimg.com^$important
 ||apple.comscoreresearch.com^$important
+||bag-smoot.v.aaplimg.com^$important
+||bookkeeper.itunes.apple.com^$important
 ||books-analytics-events.apple.com^$important
 ||books-analytics-events.news.apple-dns.net^$important
 ||books-edge.apple.com^$important
@@ -54,7 +64,9 @@
 ||bugreport.apple.com^$important
 ||cf.iadsdk.apple.com^$important
 ||clientflow.apple.com^$important
+||configuration.apple.com^$important
 ||cstat.apple.com^$important
+||ess.apple.com^$important
 ||health.apple.com^$important
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
@@ -63,8 +75,11 @@
 ||metrics.icloud.com^$important
 ||mt-ingestion-service-mr22.itunes-apple.com.akadns.net^$important
 ||mt-ingestion-service-pv.itunes-apple.com.akadns.net^$important
+||p62-fmf.icloud.com^$important
+||p62-fmfmobile.icloud.com^$important
 ||pancake.apple.com^$important
 ||partiality.itunes.apple.com^$important
+||pd.itunes.apple.com^$important
 ||radarsubmissions.apple.com^$important
 ||radio-activity.itunes.apple.com^$important
 ||radio-services.itunes.apple.com^$important
@@ -72,6 +87,7 @@
 ||smoot.apple.com^$important
 ||stocks-analytics-events.apple.com^$important
 ||tr.iadsdk.apple.com^$important
+||upp.itunes.apple.com^$important
 ||weather-analytics-events.apple.com^$important
 
 # =======================================================
@@ -103,6 +119,7 @@
 # =======================================================
 # Additional Privacy from Installed Apps
 # =======================================================
+||1password.com^$important
 ||3drating.com^$important
 ||4sqi.net^$important
 ||a.line.me^$important
@@ -110,12 +127,14 @@
 ||adjust.com^$important
 ||adnxs.com^$important
 ||adobe.com^$important
+||adobedtm.com^$important
 ||ads-api.ft.com^$important
 ||ads.td.com^$important
 ||adserving-king.bid^$important
 ||adstack.co^$important
 ||adtarget.tech^$important
 ||adxcel.com^$important
+||agilebits.com^$important
 ||airbnb.at^$important
 ||airbnb.be^$important
 ||airbnb.cat^$important
@@ -207,6 +226,7 @@
 ||datatask.net^$important
 ||de.hotels.com^$important
 ||delivery.bird.co^$important
+||demdex.net^$important
 ||dev.td.com^$important
 ||device-metrics-us.amazon.com^$important
 ||device-provisioning.googleapis.com^$important
@@ -219,6 +239,7 @@
 ||duolingo.cn^$important
 ||duunion.com^$important
 ||dynatrace.com^$important
+||e8800.x.akamaiedge.net^$important
 ||edge.experimentation.intuit.com^$important
 ||email-marriott.com^$important
 ||ensighten.com^$important
@@ -229,6 +250,7 @@
 ||espanol.marriott.com^$important
 ||eum-appdynamics.com^$important
 ||facebook.com^$important
+||faq.whatsapp.com^$important
 ||fcmtoken.googleapis.com^$important
 ||feedmob.com^$important
 ||fi.kayak.com^$important
@@ -238,6 +260,7 @@
 ||firebaseio.com^$important
 ||firebaselogging-pa.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
+||firestore.googleapis.com^$important
 ||flybits.com^$important
 ||fonts.googleapis.com^$important
 ||fonts.gstatic.com^$important
@@ -246,8 +269,10 @@
 ||fouadraheb.com^$important
 ||fr.airbnb.ca^$important
 ||fr.hotels.com^$important
+||friends-prod.duolingo.com^$important
 ||gameing-site.stream^$important
 ||gem-dev.aexp.com^$important
+||getdropbox.com^$important
 ||getrocketapp.io^$important
 ||getsentry.com^$important
 ||getutm.app^$important
@@ -327,7 +352,6 @@
 ||kayak.se^$important
 ||kayak.sg^$important
 ||komect.com^$important
-||launchdarkly.com^$important
 ||leadzuaf.com^$important
 ||limneos.net^$important
 ||link.sudoapp.me^$important
@@ -384,6 +408,7 @@
 ||omtrdc.net^$important
 ||onelink.me^$important
 ||online-metrix.net^$important
+||optimizely.com^$important
 ||otherlevels.com^$important
 ||outbound.io^$important
 ||outpace.com^$important
@@ -392,6 +417,7 @@
 ||pat.td.com^$important
 ||peakonspot.com^$important
 ||perimeterx.net^$important
+||phraseapp.com^$important
 ||pinimg.com^$important
 ||platform.twitter.com^$important
 ||play.googleapis.com^$important
@@ -413,6 +439,7 @@
 ||rqqft.com^$important
 ||ru.airbnb.com^$important
 ||safebrowsing.googleapis.com^$important
+||scone-pa.googleapis.com^$important
 ||sdkclick.com^$important
 ||sdkclickurl.com^$important
 ||secure.analytics.ihg.com^$important
@@ -480,6 +507,7 @@
 ||usbla.net^$important
 ||usebutton.com^$important
 ||useinsider.com^$important
+||userleap.com^$important
 ||uxcam.com^$important
 ||vk.com^$important
 ||vn.kayak.com^$important
