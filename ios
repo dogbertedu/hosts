@@ -62,21 +62,28 @@
 ||books-edge.apple.com^$important
 ||books-edge.news.apple-dns.net^$important
 ||bugreport.apple.com^$important
-||cf.iadsdk.apple.com^$important
 ||clientflow.apple.com^$important
 ||configuration.apple.com^$important
 ||cstat.apple.com^$important
+||dejavu.apple.com^$important
 ||ess.apple.com^$important
+||exposure-notification.apple.com^$important
+||exposure-notification.fe.apple-dns.net^$important
+||fmipmobile.fe.apple-dns.net^$important
 ||health.apple.com^$important
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
 ||idiagnostics.apple.com^$important
 ||iphonesubmissions.apple.com^$important
+||ls-apple.com.akadns.net^$important
+||mesu-cdn.origin-apple.com.akadns.net^$important
+||mesu.g.aaplimg.com^$important
 ||metrics.icloud.com^$important
 ||mt-ingestion-service-mr22.itunes-apple.com.akadns.net^$important
 ||mt-ingestion-service-pv.itunes-apple.com.akadns.net^$important
 ||p62-fmf.icloud.com^$important
 ||p62-fmfmobile.icloud.com^$important
+||p62-fmipmobile.icloud.com^$important
 ||pancake.apple.com^$important
 ||partiality.itunes.apple.com^$important
 ||pd.itunes.apple.com^$important
@@ -86,7 +93,6 @@
 ||redirect.appleads-trk.com^$important
 ||smoot.apple.com^$important
 ||stocks-analytics-events.apple.com^$important
-||tr.iadsdk.apple.com^$important
 ||upp.itunes.apple.com^$important
 ||weather-analytics-events.apple.com^$important
 
