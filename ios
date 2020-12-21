@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2020.12.15
+# Updated 2020.12.21
 # =======================================================
 
 # =======================================================
@@ -29,12 +29,12 @@
 # =======================================================
 # Apple Whitelist from other lists
 # =======================================================
-@@||se-edge.itunes.apple.com
+@@||gsas.apple.com
 @@||gsp-ssl.ls.apple.com
-@@||gsp64-ssl.ls.apple.com
 @@||gsp64-ssl.ls-apple.com.akadns.net
+@@||gsp64-ssl.ls.apple.com
+@@||se-edge.itunes.apple.com
 @@||stocks-sparkline.apple.com
-
 
 # =======================================================
 # Non-Apple Whitelist
