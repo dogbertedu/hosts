@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2020.12.21
+# Updated 2020.12.28
 # =======================================================
 
 # =======================================================
@@ -282,7 +282,6 @@
 ||getsentry.com^$important
 ||getutm.app^$important
 ||ghost.io^$important
-||gigya.com^$important
 ||goals.api.intuit.com^$important
 ||google-analytics.com^$important
 ||google.dk^$important
