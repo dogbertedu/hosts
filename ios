@@ -30,13 +30,14 @@
 # =======================================================
 # Apple Whitelist from other lists
 # =======================================================
+@@||ess.apple.com
+@@||gs-loc.apple.com
 @@||gsas.apple.com
 @@||gsp-ssl.ls.apple.com
 @@||gsp64-ssl.ls-apple.com.akadns.net
 @@||gsp64-ssl.ls.apple.com
 @@||se-edge.itunes.apple.com
 @@||stocks-sparkline.apple.com
-@@||ess.apple.com
 
 # =======================================================
 # Non-Apple Whitelist
@@ -65,7 +66,6 @@
 ||books-edge.news.apple-dns.net^$important
 ||bugreport.apple.com^$important
 ||clientflow.apple.com^$important
-||configuration.apple.com^$important
 ||cstat.apple.com^$important
 ||dejavu.apple.com^$important
 ||exposure-notification.apple.com^$important
