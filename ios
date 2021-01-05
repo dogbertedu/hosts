@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2021.01.03
+# Updated 2021.01.05
 # =======================================================
 
 # =======================================================
@@ -16,7 +16,7 @@
 ||valid.apple.com^$important
 
 # =======================================================
-# Apple iOS Update (no longer blocked as of 2019.12.11)
+# Apple iOS domains guide
 # =======================================================
 #mesu.apple.com 				Software update
 #smp-device-content.apple.com 	Apple Pay (and Location Services?)
@@ -24,7 +24,8 @@
 #bag.itunes.apple.com 			AppStore purchases
 #play.itunes.apple.com			AppStore purchases
 #gsa.apple.com					AltStore signing process
-#xp.apple.com 					#Breaks apple services (and makes phone slow)
+#xp.apple.com 					Breaks apple services (and makes phone slow)
+#ess.apple.com 					Facetime and iMessage
 
 # =======================================================
 # Apple Whitelist from other lists
@@ -35,6 +36,7 @@
 @@||gsp64-ssl.ls.apple.com
 @@||se-edge.itunes.apple.com
 @@||stocks-sparkline.apple.com
+@@||ess.apple.com
 
 # =======================================================
 # Non-Apple Whitelist
@@ -66,7 +68,6 @@
 ||configuration.apple.com^$important
 ||cstat.apple.com^$important
 ||dejavu.apple.com^$important
-||ess.apple.com^$important
 ||exposure-notification.apple.com^$important
 ||exposure-notification.fe.apple-dns.net^$important
 ||fmipmobile.fe.apple-dns.net^$important
