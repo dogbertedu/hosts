@@ -76,8 +76,6 @@
 ||iadsdk.apple.com^$important
 ||idiagnostics.apple.com^$important
 ||iphonesubmissions.apple.com^$important
-||mesu-cdn.origin-apple.com.akadns.net^$important
-||mesu.g.aaplimg.com^$important
 ||metrics.icloud.com^$important
 ||mt-ingestion-service-mr22.itunes-apple.com.akadns.net^$important
 ||mt-ingestion-service-pv.itunes-apple.com.akadns.net^$important
