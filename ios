@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2021.01.05
+# Updated 2021.02.06
 # =======================================================
 
 # =======================================================
@@ -178,6 +178,7 @@
 ||amazon.nl^$important
 ||amazon.sa^$important
 ||analytics.chase.com^$important
+||apigee.com^$important
 ||app-measurement.com^$important
 ||app.link^$important
 ||appboy.com^$important
@@ -506,6 +507,7 @@
 ||uk.hotels.com^$important
 ||unionapps.info^$important
 ||upgulpinon.com^$important
+||urbanairship.com^$important
 ||usbla.net^$important
 ||usebutton.com^$important
 ||useinsider.com^$important
