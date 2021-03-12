@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2021.02.17
+# Updated 2021.03.12
 # =======================================================
 
 # =======================================================
@@ -224,6 +224,7 @@
 ||connect.facebook.net^$important
 ||consumerinsights.api.intuit.com^$important
 ||contentful.com^$important
+||crashlytics.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
 ||crittercism.com^$important
 ||crs-event.line.me^$important
