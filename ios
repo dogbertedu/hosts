@@ -1,6 +1,6 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2021.03.12
+# Updated 2021.03.30
 # =======================================================
 
 # =======================================================
@@ -39,6 +39,21 @@
 @@||gsp64-ssl.ls.apple.com
 @@||se-edge.itunes.apple.com
 @@||stocks-sparkline.apple.com
+
+
+# =======================================================
+# AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
+# AdGuard's CTO did not side with his customers who pay for AdGuard for privacy. Instead, @ameshkov sided with devs who want to monitor their users.
+# AdGuard's Spyware/Tracking list explictly whitelists crashlytics and other services that track user interactions and crashes. Contrary to what one would expect - and contrary to what pricacy-oriented UblockOrigin's filters do. I.e. the right thing and block these trackers.
+# https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+# =======================================================
+||apptrace.com^$important
+||bugsnag.com^$important
+||crashlytics.com^$important
+||crashlytics2.l.google.com^$important
+||qcloud.com^$important
+||snssdk.com^$important
+
 
 # =======================================================
 # Non-Apple Whitelist
