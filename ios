@@ -24,7 +24,7 @@
 #bag.itunes.apple.com 			AppStore purchases
 #play.itunes.apple.com			AppStore purchases
 #gsa.apple.com					AltStore signing process
-#xp.apple.com 					Breaks apple services (and makes phone slow)
+#xp.apple.com 					Telemetry: Pre-iOS14 broke apple services and made phone slow
 #ess.apple.com 					Facetime and iMessage
 
 # =======================================================
@@ -110,6 +110,7 @@
 ||stocks-analytics-events.apple.com^$important
 ||upp.itunes.apple.com^$important
 ||weather-analytics-events.apple.com^$important
+||xp.apple.com^$important
 
 # =======================================================
 # EMAIL TRACKERS
