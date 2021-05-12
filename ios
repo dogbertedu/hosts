@@ -1,12 +1,13 @@
 # =======================================================
 # Addition iOS Hosts for Adguard Pro
-# Updated 2021.03.30
 # =======================================================
 
 # =======================================================
 # Apple Revokes
 # =======================================================
 ||ocsp.apple.com^$important
+||ocsp2.apple.com^$important
+||ocsp2.g.aaplimg.com^$important
 ||ppq.apple.com^$important
 ||gdmf.apple.com^$important
 ||iadsdk.apple.com^$important
@@ -59,16 +60,19 @@
 # Non-Apple Whitelist
 # =======================================================
 @@||cloud.culturedcode.com
+@@||bolt.zendesk.com
 @@||ap.spotify.com
 @@||meditation-mobile.firebaseio.com
 @@||audio-fa.scdn.co
 @@||audio4-ak-spotify-com.akamaized.net
 @@||securetoken.googleapis.com
+@@||scdnco.spotify.map.fastly.net
 
 
 # =======================================================
 # Apple Privacy
 # =======================================================
+||api.apps.apple.com^$important
 ||api.books.apple.com^$important
 ||api.smoot-apple.com.akadns.net^$important
 ||app-site-association.cdn-apple.com^$important
@@ -87,25 +91,31 @@
 ||dejavu.apple.com^$important
 ||exposure-notification.apple.com^$important
 ||exposure-notification.fe.apple-dns.net^$important
+||fmip.fe.apple-dns.net^$important
 ||fmipmobile.fe.apple-dns.net^$important
 ||health.apple.com^$important
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
 ||idiagnostics.apple.com^$important
+||inappcheck.itunes.apple.com^$important
 ||iphonesubmissions.apple.com^$important
 ||metrics.icloud.com^$important
 ||mt-ingestion-service-mr22.itunes-apple.com.akadns.net^$important
 ||mt-ingestion-service-pv.itunes-apple.com.akadns.net^$important
 ||p62-fmf.icloud.com^$important
 ||p62-fmfmobile.icloud.com^$important
+||p62-fmip.icloud.com^$important
 ||p62-fmipmobile.icloud.com^$important
 ||pancake.apple.com^$important
 ||partiality.itunes.apple.com^$important
 ||pd.itunes.apple.com^$important
+||play.itunes.apple.com^$important
 ||radarsubmissions.apple.com^$important
 ||radio-activity.itunes.apple.com^$important
 ||radio-services.itunes.apple.com^$important
 ||redirect.appleads-trk.com^$important
+||setup.icloud.com^$important
+||sf-api-token-service.itunes.apple.com^$important
 ||smoot.apple.com^$important
 ||stocks-analytics-events.apple.com^$important
 ||upp.itunes.apple.com^$important
@@ -198,6 +208,7 @@
 ||analytics.chase.com^$important
 ||apigee.com^$important
 ||app-measurement.com^$important
+||app.adjust.net.in^$important
 ||app.link^$important
 ||appboy.com^$important
 ||appinstall.click^$important
@@ -296,7 +307,6 @@
 ||gameing-site.stream^$important
 ||gem-dev.aexp.com^$important
 ||getdropbox.com^$important
-||getrocketapp.io^$important
 ||getsentry.com^$important
 ||getutm.app^$important
 ||ghost.io^$important
@@ -374,6 +384,7 @@
 ||kayak.se^$important
 ||kayak.sg^$important
 ||komect.com^$important
+||lb._dns-sd._udp.edimax.com^$important
 ||leadzuaf.com^$important
 ||limneos.net^$important
 ||link.sudoapp.me^$important
