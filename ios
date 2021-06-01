@@ -211,9 +211,11 @@
 ||app.adjust.net.in^$important
 ||app.link^$important
 ||appboy.com^$important
+||appcenter.ms^$important
 ||appinstall.click^$important
 ||applift.com^$important
 ||appm.app^$important
+||apppersonalization.api.intuit.com^$important
 ||appromoters.com^$important
 ||appsflyer.com^$important
 ||apptentive.com^$important
@@ -227,6 +229,7 @@
 ||bazaarvoice.com^$important
 ||bcnmonetize.com^$important
 ||bestdisplayformats.com^$important
+||beyonduserpaid.api.intuit.com^$important
 ||biz.uber.com^$important
 ||blast.duolingo.com^$important
 ||boingo.events^$important
@@ -247,12 +250,15 @@
 ||cloudmobi.net^$important
 ||cn.kayak.com^$important
 ||cn.tripadvisor.com^$important
+||conductrics.net^$important
+||config-partner-platform-client-933515454346.s3.amazonaws.com^$important
 ||confsettings.com^$important
 ||connect.facebook.net^$important
 ||consumerinsights.api.intuit.com^$important
 ||contentful.com^$important
 ||crashlytics.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
+||credit.finance.intuit.com^$important
 ||crittercism.com^$important
 ||crs-event.line.me^$important
 ||csi.gstatic.com^$important
@@ -276,6 +282,7 @@
 ||dynatrace.com^$important
 ||edge.experimentation.intuit.com^$important
 ||email-marriott.com^$important
+||emb-api.com^$important
 ||ensighten.com^$important
 ||es.airbnb.com^$important
 ||es.hoteles.com^$important
@@ -283,6 +290,10 @@
 ||es.play.pl^$important
 ||espanol.marriott.com^$important
 ||eum-appdynamics.com^$important
+||eventbus.a.intuit.com^$important
+||eventbus.intuit.com^$important
+||experimentassignment.api.intuit.com^$important
+||experimentconfig.api.intuit.com^$important
 ||facebook.com^$important
 ||faq.whatsapp.com^$important
 ||fcmtoken.googleapis.com^$important
@@ -310,6 +321,7 @@
 ||getsentry.com^$important
 ||getutm.app^$important
 ||ghost.io^$important
+||glassboxcloud.com^$important
 ||goals.api.intuit.com^$important
 ||google-analytics.com^$important
 ||google.dk^$important
@@ -338,6 +350,7 @@
 ||in-addr.arpa^$important
 ||in.appcenter.ms^$important
 ||indexww.com^$important
+||instabug.com^$important
 ||instagram.com^$important
 ||internal.airbnb.com^$important
 ||interst12.com^$important
@@ -345,6 +358,7 @@
 ||invite.duolingo.com^$important
 ||iskyworker.com^$important
 ||it.hotels.com^$important
+||iterable.com^$important
 ||janraincapture.com^$important
 ||jumpraw.com^$important
 ||kay.ac^$important
@@ -384,6 +398,7 @@
 ||kayak.se^$important
 ||kayak.sg^$important
 ||komect.com^$important
+||launchdarkly.com^$important
 ||lb._dns-sd._udp.edimax.com^$important
 ||leadzuaf.com^$important
 ||limneos.net^$important
@@ -397,7 +412,9 @@
 ||locator.chase.com^$important
 ||locuslabs.com^$important
 ||login.uber.com^$important
+||loungebuddy.okta.com^$important
 ||m.uber.com^$important
+||mapbox.com^$important
 ||maps.google.ch^$important
 ||maps.google.co.id^$important
 ||maps.google.co.th^$important
@@ -450,11 +467,13 @@
 ||pat.td.com^$important
 ||peakonspot.com^$important
 ||perimeterx.net^$important
+||photorank.me^$important
 ||phraseapp.com^$important
 ||pinimg.com^$important
 ||platform.twitter.com^$important
 ||play.googleapis.com^$important
 ||plcontent.com^$important
+||plugin.intuitcdn.net^$important
 ||plus.uber.com^$important
 ||prf.hn^$important
 ||privatestats.whatsapp.net^$important
@@ -481,6 +500,7 @@
 ||seven.app^$important
 ||sevmob.com^$important
 ||sgdmobile.com^$important
+||shapesecurity.com^$important
 ||shifen.com^$important
 ||shuga.co^$important
 ||siftscience.com^$important
@@ -514,7 +534,9 @@
 ||td.intelliresponse.com^$important
 ||test-app.link^$important
 ||test.klook.io^$important
+||texttospeech.googleapis.com^$important
 ||thetechloft.com^$important
+||tinypass.com^$important
 ||tiqcdn.com^$important
 ||tlnk.io^$important
 ||tripadvisor.ch^$important
@@ -530,6 +552,7 @@
 ||tripadvisor.fi^$important
 ||tripadvisor.nl^$important
 ||trksontrks.com^$important
+||turbointerview.api.intuit.com^$important
 ||tw.hotels.com^$important
 ||tw.kayak.com^$important
 ||twitter.com^$important
