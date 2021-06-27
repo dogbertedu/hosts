@@ -74,6 +74,7 @@
 # =======================================================
 # Apple Privacy
 # =======================================================
+||amp-api.apps.apple.com^$important
 ||api.apps.apple.com^$important
 ||api.books.apple.com^$important
 ||api.smoot-apple.com.akadns.net^$important
@@ -116,9 +117,14 @@
 ||radio-activity.itunes.apple.com^$important
 ||radio-services.itunes.apple.com^$important
 ||redirect.appleads-trk.com^$important
+||safebrowsing-proxy.g.aaplimg.com^$important
+||safebrowsing.apple^$important
 ||setup.icloud.com^$important
+||silverbullet-external-ats.itunes.apple.com^$important
 ||smoot.apple.com^$important
 ||stocks-analytics-events.apple.com^$important
+||swallow-apple-com.v.aaplimg.com^$important
+||swallow.apple.com^$important
 ||upp.itunes.apple.com^$important
 ||weather-analytics-events.apple.com^$important
 ||xp.apple.com^$important
@@ -147,7 +153,6 @@
 ||streak.com^$important
 ||toutapp.com^$important
 ||yesware.com^$important
-
 
 # =======================================================
 # Additional Privacy from Installed Apps
@@ -448,12 +453,15 @@
 ||moboclick09.com^$important
 ||monitoring-sdk.experimentation.intuit.com^$important
 ||movieboxpro.app^$important
+||mparticle.com^$important
 ||mtalk.google.com^$important
 ||mychelsea.co.uk^$important
 ||myfonts.net^$important
 ||nextinsure.com^$important
 ||nz.kayak.com^$important
 ||o5o4o6.com^$important
+||ocsp.godaddy.com^$important
+||ocsp.pki.goog^$important
 ||ocsp.sectigo.com^$important
 ||offerstrack.net^$important
 ||omtrdc.net^$important
@@ -471,6 +479,7 @@
 ||photorank.me^$important
 ||phraseapp.com^$important
 ||pinimg.com^$important
+||pki-goog.l.google.com^$important
 ||platform.twitter.com^$important
 ||play.googleapis.com^$important
 ||plcontent.com^$important
@@ -533,6 +542,7 @@
 ||t.uber.com^$important
 ||takt.com^$important
 ||td.intelliresponse.com^$important
+||tenor.co^$important
 ||test-app.link^$important
 ||test.klook.io^$important
 ||texttospeech.googleapis.com^$important
@@ -584,6 +594,3 @@
 ||zendesk.com^$important
 ||zimperium.com^$important
 ||zoomd.com^$important
-||pki-goog.l.google.com^$important
-||ocsp.pki.goog^$important
-||mparticle.com^$important
