@@ -24,6 +24,7 @@
 #configuration.ls.apple.com 	Location services incl Weather app
 #bag.itunes.apple.com 			AppStore purchases
 #play.itunes.apple.com			AppStore purchases
+#sf-api-token-service.itunes.apple.com			AppStore purchases
 #gsa.apple.com					AltStore signing process
 #xp.apple.com 					Telemetry: Pre-iOS14 broke apple services and made phone slow
 #ess.apple.com 					Facetime and iMessage
@@ -39,6 +40,7 @@
 @@||gsp64-ssl.ls-apple.com.akadns.net
 @@||gsp64-ssl.ls.apple.com
 @@||se-edge.itunes.apple.com
+@@||sf-api-token-service.itunes.apple.com
 @@||stocks-sparkline.apple.com
 
 
@@ -115,7 +117,6 @@
 ||radio-services.itunes.apple.com^$important
 ||redirect.appleads-trk.com^$important
 ||setup.icloud.com^$important
-||sf-api-token-service.itunes.apple.com^$important
 ||smoot.apple.com^$important
 ||stocks-analytics-events.apple.com^$important
 ||upp.itunes.apple.com^$important
@@ -583,3 +584,6 @@
 ||zendesk.com^$important
 ||zimperium.com^$important
 ||zoomd.com^$important
+||pki-goog.l.google.com^$important
+||ocsp.pki.goog^$important
+||mparticle.com^$important
