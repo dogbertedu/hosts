@@ -27,8 +27,9 @@
 #amp-api.apps.apple.com^$important				AppStore purchase
 #sf-api-token-service.itunes.apple.com			AppStore purchases
 #gsa.apple.com					AltStore signing process
-#xp.apple.com 					Telemetry: Pre-iOS14 broke apple services and made phone slow
+#xp.apple.com 					Telemetry / Malware: Pre-iOS14 broke apple services and made phone slow
 #ess.apple.com 					Facetime and iMessage
+#gateway.icloud.com^$important					FindMy Network Participation (among others)
 
 # =======================================================
 # Apple Whitelist from other lists
@@ -47,17 +48,22 @@
 
 # =======================================================
 # AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
-# AdGuard's CTO did not side with his customers who pay for AdGuard for privacy. Instead, @ameshkov sided with devs who want to monitor their users.
+# AdGuard's CTO did not side with his customers who pay for AdGuard. Instead, @ameshkov sided with devs who want to monitor their users.
 # AdGuard's Spyware/Tracking list explictly whitelists crashlytics and other services that track user interactions and crashes. Contrary to what one would expect - and contrary to what pricacy-oriented UblockOrigin's filters do. I.e. the right thing and block these trackers.
 # https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # =======================================================
+||app-measurement.com^$important
 ||apptrace.com^$important
 ||bugsnag.com^$important
 ||crashlytics.com^$important
 ||crashlytics2.l.google.com^$important
+||crashlyticsreports-pa.googleapis.com^$important
+||ensighten.com^important
+||split.io^important
+||firebaseio.com^important
+||opentelemetry.io^important
 ||qcloud.com^$important
 ||snssdk.com^$important
-
 
 # =======================================================
 # Non-Apple Whitelist
@@ -96,6 +102,8 @@
 ||exposure-notification.fe.apple-dns.net^$important
 ||fmip.fe.apple-dns.net^$important
 ||fmipmobile.fe.apple-dns.net^$important
+||gateway.icloud.com^$important
+||gateway.fe.apple-dns.net^$important
 ||health.apple.com^$important
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
@@ -478,6 +486,7 @@
 ||peakonspot.com^$important
 ||perimeterx.net^$important
 ||photorank.me^$important
+||photos-ugc.l.googleusercontent.com^$important
 ||phraseapp.com^$important
 ||pinimg.com^$important
 ||pki-goog.l.google.com^$important
@@ -535,6 +544,7 @@
 ||splkmobile.com^$important
 ||spykemedia.g2afse.com^$important
 ||stickershop.line-scdn.net^$important
+||storage.googleapis.com^$important
 ||stracking.rogers.com^$important
 ||sudoapp.me^$important
 ||suibyuming.com^$important
