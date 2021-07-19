@@ -23,7 +23,7 @@
 #smp-device-content.apple.com 	Apple Pay (and Location Services?)
 #configuration.ls.apple.com 	Location services incl Weather app
 #bag.itunes.apple.com 			AppStore purchases
-#play.itunes.apple.com			AppStore purchases
+#play.itunes.apple.com			AppStore purchases (Breaks Podcasts App)
 #amp-api.apps.apple.com^$important				AppStore purchase
 #sf-api-token-service.itunes.apple.com			AppStore purchases
 #gsa.apple.com					AltStore signing process
