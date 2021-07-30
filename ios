@@ -5,15 +5,20 @@
 # =======================================================
 # Testing
 # =======================================================
+
 # Audible Tracking
-||life^
-||site^
-||info^
+||akisinn.info^$important
+||dewrain.life^$important
+||dewrain.site^$important
+||msh.amazon.com^$important
 ||sansa.audible.com^$important
 ||todo-ta-g7g.amazon.com^$important
-||msh.amazon.com^$important
+||vaicore.site^$important
 
-
+# Misc Testing
+||ghs.googlehosted.com^$important
+||aria.microsoft.com^$important
+||data.microsoft.com^$important
 
 # =======================================================
 # Apple Revokes
@@ -52,12 +57,13 @@
 @@||gsas.apple.com
 @@||gsp-ssl.ls-apple.com.akadns.net
 @@||gsp-ssl.ls.apple.com
-@@||gsp64-ssl.ls-apple.com.akadns.net
-@@||gsp64-ssl.ls.apple.com
 @@||se-edge.itunes.apple.com
 @@||sf-api-token-service.itunes.apple.com
 @@||stocks-sparkline.apple.com
 
+# Location / Maps still work with these blocked
+||gsp64-ssl.ls-apple.com.akadns.net
+||gsp64-ssl.ls.apple.com
 
 # =======================================================
 # AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
@@ -292,6 +298,7 @@
 ||csi.gstatic.com^$important
 ||ctfassets.net^$important
 ||culturedcode.com
+||d.dropbox.com^$important
 ||datatask.net^$important
 ||de.hotels.com^$important
 ||delivery.bird.co^$important
@@ -327,6 +334,7 @@
 ||fcmtoken.googleapis.com^$important
 ||feedmob.com^$important
 ||fi.kayak.com^$important
+||firebasedynamiclinks.googleapis.com^$important
 ||firebasedynamiclinks-ipv4.googleapis.com^$important
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
