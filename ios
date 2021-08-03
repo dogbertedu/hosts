@@ -52,9 +52,10 @@
 # =======================================================
 # Apple Whitelist from other lists
 # =======================================================
+# Facetime and iMessage
 @@||ess.apple.com
-@@||gs-loc.apple.com
 
+# iTunes and Stocks
 @@||se-edge.itunes.apple.com
 @@||sf-api-token-service.itunes.apple.com
 @@||stocks-sparkline.apple.com
@@ -69,6 +70,10 @@
 # Location Telemetry inc SIM carrier details (Breaks Maps search and search results)
 @@||gsp-ssl.ls-apple.com.akadns.net
 @@||gsp-ssl.ls.apple.com
+
+# Possible telemetry. Maps still work
+||gs-loc.apple.com
+
 
 # =======================================================
 # AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
@@ -124,10 +129,12 @@
 ||dejavu.apple.com^$important
 ||exposure-notification.apple.com^$important
 ||exposure-notification.fe.apple-dns.net^$important
+||fmf.fe.apple-dns.net^$important
+||fmfmobile.fe.apple-dns.net^$important
 ||fmip.fe.apple-dns.net^$important
 ||fmipmobile.fe.apple-dns.net^$important
-||gateway.icloud.com^$important
 ||gateway.fe.apple-dns.net^$important
+||gateway.icloud.com^$important
 ||health.apple.com^$important
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
@@ -152,6 +159,7 @@
 ||redirect.appleads-trk.com^$important
 ||safebrowsing-proxy.g.aaplimg.com^$important
 ||safebrowsing.apple^$important
+||setup.fe.apple-dns.net^$important
 ||setup.icloud.com^$important
 ||silverbullet-external-ats.itunes.apple.com^$important
 ||smoot.apple.com^$important
@@ -190,6 +198,7 @@
 # =======================================================
 # Additional Privacy from Installed Apps
 # =======================================================
+||mobile-api.adguard.com^$important
 ||1password.com^$important
 ||3drating.com^$important
 ||4sqi.net^$important
@@ -296,7 +305,6 @@
 ||contentful.com^$important
 ||crashlytics.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
-||credit.finance.intuit.com^$important
 ||crittercism.com^$important
 ||crs-event.line.me^$important
 ||csi.gstatic.com^$important
