@@ -65,8 +65,10 @@
 # Location Telemetry inc SIM carrier details (Maps still work with these blocked)
 ||gsp64-ssl.ls-apple.com.akadns.net
 ||gsp64-ssl.ls.apple.com
-||gsp-ssl.ls-apple.com.akadns.net
-||gsp-ssl.ls.apple.com
+
+# Location Telemetry inc SIM carrier details (Breaks Maps search and search results)
+@@||gsp-ssl.ls-apple.com.akadns.net
+@@||gsp-ssl.ls.apple.com
 
 # =======================================================
 # AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
