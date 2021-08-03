@@ -54,18 +54,19 @@
 # =======================================================
 @@||ess.apple.com
 @@||gs-loc.apple.com
-@@||gsp-ssl.ls-apple.com.akadns.net
-@@||gsp-ssl.ls.apple.com
+
 @@||se-edge.itunes.apple.com
 @@||sf-api-token-service.itunes.apple.com
 @@||stocks-sparkline.apple.com
 
-# Apple Telemetry Checkin (https://www.scss.tcd.ie/doug.leith/pubs/apple_google2.pdf)
+# Telemetry Checkin (https://www.scss.tcd.ie/doug.leith/pubs/apple_google2.pdf)
 ||gsas.apple.com
 
-# Location / Maps still work with these blocked
+# Location Telemetry inc SIM carrier details (Maps still work with these blocked)
 ||gsp64-ssl.ls-apple.com.akadns.net
 ||gsp64-ssl.ls.apple.com
+||gsp-ssl.ls-apple.com.akadns.net
+||gsp-ssl.ls.apple.com
 
 # =======================================================
 # AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
