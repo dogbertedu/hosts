@@ -20,9 +20,9 @@
 ||aria.microsoft.com^$important
 ||data.microsoft.com^$important
 
-# Google Testing
-||clients3.google.com^$important
-||clients.l.google.com^$important
+# Google (Breaks Google Cloud apps: Bolt Food)
+#||clients3.google.com^$important
+#||clients.l.google.com^$important
 
 # Apple Testing
 ||client-api.itunes.apple.com^$important
