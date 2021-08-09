@@ -20,6 +20,18 @@
 ||aria.microsoft.com^$important
 ||data.microsoft.com^$important
 
+# Google Testing
+||clients3.google.com^$important
+||clients.l.google.com^$important
+
+# Apple Testing
+||client-api.itunes.apple.com^$important
+||a1838.dscb.akamai.net^$important
+||p62-keyvalueservice.icloud.com^$important
+||keyvalueservice.fe.apple-dns.net^$important
+||doh.dns.apple.com^$important
+||doh.dns.apple.com.v.aaplimg.com^$important
+
 # =======================================================
 # Apple Revokes
 # =======================================================
@@ -48,6 +60,8 @@
 #xp.apple.com 					Telemetry / Malware: Pre-iOS14 broke apple services and made phone slow
 #ess.apple.com 					Facetime and iMessage
 #gateway.icloud.com^$important					FindMy Network Participation (among others)
+#setup.icloud.com				Requires contact, else re-signi-in into iCloud prompts
+#configuration.apple.com		Allows to toggle iCloud settings in Settings	
 
 # =======================================================
 # Apple Whitelist from other lists
@@ -124,7 +138,6 @@
 ||books-edge.news.apple-dns.net^$important
 ||bugreport.apple.com^$important
 ||clientflow.apple.com^$important
-||configuration.apple.com^$important
 ||cstat.apple.com^$important
 ||dejavu.apple.com^$important
 ||exposure-notification.apple.com^$important
@@ -160,7 +173,6 @@
 ||safebrowsing-proxy.g.aaplimg.com^$important
 ||safebrowsing.apple^$important
 ||setup.fe.apple-dns.net^$important
-||setup.icloud.com^$important
 ||silverbullet-external-ats.itunes.apple.com^$important
 ||smoot.apple.com^$important
 ||stocks-analytics-events.apple.com^$important
