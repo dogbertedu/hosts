@@ -8,6 +8,7 @@
 
 # Audible Tracking
 ||akisinn.info^$important
+||akisinn.site^$important
 ||dewrain.life^$important
 ||dewrain.site^$important
 ||msh.amazon.com^$important
@@ -29,6 +30,7 @@
 ||a1838.dscb.akamai.net^$important
 ||p62-keyvalueservice.icloud.com^$important
 ||keyvalueservice.fe.apple-dns.net^$important
+||keyvalueservice.icloud.com^$important
 ||doh.dns.apple.com^$important
 ||doh.dns.apple.com.v.aaplimg.com^$important
 
@@ -127,6 +129,8 @@
 # =======================================================
 ||api.apps.apple.com^$important
 ||api.books.apple.com^$important
+||amp-api-books-lb.itunes-apple.com.akadns.net^$important
+||amp-api.books.apple.com^$important
 ||api.smoot-apple.com.akadns.net^$important
 ||app-site-association.cdn-apple.com^$important
 ||app-site-association.g.aaplimg.com^$important
