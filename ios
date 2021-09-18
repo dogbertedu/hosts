@@ -37,16 +37,17 @@
 # =======================================================
 # Apple Revokes
 # =======================================================
+||gdmf.apple.com^$important
+||iadsdk.apple.com^$important
+||mesu.apple.com^$important
 ||ocsp.apple.com^$important
+||ocsp.digicert.com^$important
+||ocsp.usertrust.com^$important
 ||ocsp2.apple.com^$important
 ||ocsp2.g.aaplimg.com^$important
 ||ppq.apple.com^$important
-||gdmf.apple.com^$important
-||iadsdk.apple.com^$important
-||world-gen.g.aaplimg.com^$important
-||ocsp.usertrust.com^$important
-||ocsp.digicert.com
 ||valid.apple.com^$important
+||world-gen.g.aaplimg.com^$important
 
 # =======================================================
 # Apple iOS domains guide
@@ -88,8 +89,8 @@
 @@||gsp-ssl.ls-apple.com.akadns.net
 @@||gsp-ssl.ls.apple.com
 
-# Possible telemetry. Maps still work
-||gs-loc.apple.com
+# Possible telemetry. Maps still work. Whitelisted to fix precise location
+@@||gs-loc.apple.com
 
 
 # =======================================================
@@ -122,6 +123,7 @@
 @@||audio4-ak-spotify-com.akamaized.net
 @@||securetoken.googleapis.com
 @@||scdnco.spotify.map.fastly.net
+@@||omns.americanexpress.com
 
 
 # =======================================================
@@ -157,7 +159,6 @@
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
 ||idiagnostics.apple.com^$important
-||inappcheck.itunes.apple.com^$important
 ||init.itunes.apple.com^$important
 ||iphonesubmissions.apple.com^$important
 ||metrics.icloud.com^$important
@@ -501,6 +502,7 @@
 ||metrics-prod.barclaycardus.com^$important
 ||metrics.barclaycardus.com^$important
 ||mintbillpayapi.finance.intuit.com^$important
+||miro92.com^$important
 ||mob193.com^$important
 ||mobgc.com^$important
 ||mobile-bt.com^$important
