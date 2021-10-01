@@ -26,13 +26,25 @@
 #||clients.l.google.com^$important
 
 # Apple Testing
-||client-api.itunes.apple.com^$important
 ||a1838.dscb.akamai.net^$important
-||p62-keyvalueservice.icloud.com^$important
+||apple-dns.net^$important
+||client-api.itunes.apple.com^$important
+||configuration.apple.com.akadns.net^$important
+||developerservices2.apple.com^$important
+||developerservices2.v.aaplimg.com^$important
+||doh.dns.apple.com.v.aaplimg.com^$important
+||doh.dns.apple.com^$important
+||geoar.googleapis.com^$important
+||gsa.apple.com^$important
+||gsa.idms-apple.com.akadns.net^$important
+||inappcheck.itunes.apple.com^$important
 ||keyvalueservice.fe.apple-dns.net^$important
 ||keyvalueservice.icloud.com^$important
-||doh.dns.apple.com^$important
-||doh.dns.apple.com.v.aaplimg.com^$important
+||mobilemaps-pa-gz.googleapis.com^$important
+||p62-keyvalueservice.icloud.com^$important
+||ppq-new-st.oa-apple.com.akadns.net^$important
+||sandbox.itunes-apple.com.akadns.net^$important
+||sandbox.itunes.apple.com^$important
 
 # =======================================================
 # Apple Revokes
