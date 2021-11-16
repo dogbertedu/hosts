@@ -227,10 +227,10 @@
 # =======================================================
 # Additional Privacy from Installed Apps
 # =======================================================
-||mobile-api.adguard.com^$important
 ||1password.com^$important
 ||3drating.com^$important
 ||4sqi.net^$important
+||_udp.Home^$important
 ||a.line.me^$important
 ||adj.st^$important
 ||adjust.com^$important
@@ -277,6 +277,7 @@
 ||airbnb.ru^$important
 ||airbnb.se^$important
 ||ajax.googleapis.com^$important
+||albtls.t.co^$important
 ||amazon-adsystem.com^$important
 ||amazon.cn^$important
 ||amazon.com.br^$important
@@ -330,6 +331,7 @@
 ||config-partner-platform-client-933515454346.s3.amazonaws.com^$important
 ||confsettings.com^$important
 ||connect.facebook.net^$important
+||connectivitycheck.gstatic.com^$important
 ||consumerinsights.api.intuit.com^$important
 ||contentful.com^$important
 ||crashlytics.com^$important
@@ -352,6 +354,7 @@
 ||doubleclick.net^$important
 ||drd.sh^$important
 ||dtag.td.com^$important
+||dtm.tangerine.ca^$important
 ||dumps.to^$important
 ||duolingo.cn^$important
 ||duunion.com^$important
@@ -375,9 +378,9 @@
 ||fcmtoken.googleapis.com^$important
 ||feedmob.com^$important
 ||fi.kayak.com^$important
-||firebasedynamiclinks.googleapis.com^$important
 ||firebasedynamiclinks-ipv4.googleapis.com^$important
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
+||firebasedynamiclinks.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
 ||firebaseio.com^$important
 ||firebaselogging-pa.googleapis.com^$important
@@ -399,18 +402,21 @@
 ||getutm.app^$important
 ||ghost.io^$important
 ||glassboxcloud.com^$important
+||glbtls.t.co^$important
 ||goals.api.intuit.com^$important
 ||google-analytics.com^$important
 ||google.dk^$important
 ||googleadservices.com^$important
 ||googletagmanager.com^$important
 ||gr.kayak.com^$important
+||grabmobilewebtop.com^$important
 ||graph.facebook.com^$important
 ||gravatar.com^$important
 ||graylog.textnow.me^$important
 ||growth-pa.googleapis.com^$important
 ||harvesttrk.com^$important
 ||heapanalytics.com^$important
+||helpshift.com^$important
 ||herokuapp.com^$important
 ||hgvynv.cn^$important
 ||hoteis.com^$important
@@ -477,6 +483,7 @@
 ||komect.com^$important
 ||launchdarkly.com^$important
 ||lb._dns-sd._udp.edimax.com^$important
+||lb._dns-sd._udp.localdomain^$important
 ||leadzuaf.com^$important
 ||limneos.net^$important
 ||link.sudoapp.me^$important
@@ -517,6 +524,7 @@
 ||miro92.com^$important
 ||mob193.com^$important
 ||mobgc.com^$important
+||mobile-api.adguard.com^$important
 ||mobile-bt.com^$important
 ||mobileapptracking.com^$important
 ||mobilegames.com^$important
@@ -564,6 +572,7 @@
 ||prizelogic.com^$important
 ||qbk1.com^$important
 ||qualtrics.com^$important
+||quantummetric.com^$important
 ||r.uber.com^$important
 ||reederapp.com^$important
 ||responsys.net^$important
@@ -614,7 +623,10 @@
 ||superads.cn^$important
 ||sys.td.com^$important
 ||t.uber.com^$important
+||tac.googleapis.com^$important
 ||takt.com^$important
+||tapbots.com^$important
+||tapbots.net^$important
 ||td.intelliresponse.com^$important
 ||tenor.co^$important
 ||test-app.link^$important
