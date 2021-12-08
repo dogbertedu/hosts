@@ -232,6 +232,7 @@
 ||4sqi.net^$important
 ||_udp.Home^$important
 ||a.line.me^$important
+||acxiom.com^$important
 ||adj.st^$important
 ||adjust.com^$important
 ||adnxs.com^$important
@@ -277,6 +278,7 @@
 ||airbnb.ru^$important
 ||airbnb.se^$important
 ||ajax.googleapis.com^$important
+||alb-logs-http-rum-shard0-1655841446.us-east-1.elb.amazonaws.com^$important
 ||albtls.t.co^$important
 ||amazon-adsystem.com^$important
 ||amazon.cn^$important
@@ -318,7 +320,7 @@
 ||bttn.io^$important
 ||builds.io^$important
 ||c1oudmobi.net^$important
-||ca.kayak.com^$important
+||cardlytics.com^$important
 ||careyads.com^$important
 ||catch.gift^$important
 ||cercube.com^$important
@@ -342,16 +344,18 @@
 ||ctfassets.net^$important
 ||culturedcode.com
 ||d.dropbox.com^$important
+||datadoghq.com^$important
 ||datatask.net^$important
-||de.hotels.com^$important
 ||delivery.bird.co^$important
 ||demdex.net^$important
 ||dev.td.com^$important
 ||device-metrics-us.amazon.com^$important
 ||device-provisioning.googleapis.com^$important
 ||dmsa.egslb.net.rogers.com^$important
+||dns.google.com^$important
 ||doorcrawl.com^$important
 ||doubleclick.net^$important
+||doublerew.net^$important
 ||drd.sh^$important
 ||dtag.td.com^$important
 ||dtm.tangerine.ca^$important
@@ -401,6 +405,7 @@
 ||getsentry.com^$important
 ||getutm.app^$important
 ||ghost.io^$important
+||glance.net^$important
 ||glassboxcloud.com^$important
 ||glbtls.t.co^$important
 ||goals.api.intuit.com^$important
@@ -560,6 +565,7 @@
 ||photorank.me^$important
 ||photos-ugc.l.googleusercontent.com^$important
 ||phraseapp.com^$important
+||pieventscapture.americanexpress.com^$important
 ||pinimg.com^$important
 ||pki-goog.l.google.com^$important
 ||platform.twitter.com^$important
