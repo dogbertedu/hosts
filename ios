@@ -141,6 +141,7 @@
 # =======================================================
 # Apple Privacy
 # =======================================================
+||api-adservices.apple.com^$important
 ||api.apps.apple.com^$important
 ||api.books.apple.com^$important
 ||amp-api-books-lb.itunes-apple.com.akadns.net^$important
@@ -325,6 +326,7 @@
 ||careyads.com^$important
 ||catch.gift^$important
 ||cercube.com^$important
+||clevertap-prod.com^$important
 ||cloudcheck.net^$important
 ||cloudconfig.googleapis.com^$important
 ||cloudmobi.net^$important
@@ -383,6 +385,7 @@
 ||fcmtoken.googleapis.com^$important
 ||feedmob.com^$important
 ||fi.kayak.com^$important
+||firebaseappcheck.googleapis.com^$important
 ||firebasedynamiclinks-ipv4.googleapis.com^$important
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebasedynamiclinks.googleapis.com^$important
@@ -391,6 +394,8 @@
 ||firebaselogging-pa.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
 ||firestore.googleapis.com^$important
+||flo.uri.sh^$important
+||flourish.studio^$important
 ||flybits.com^$important
 ||fonts.googleapis.com^$important
 ||fonts.gstatic.com^$important
@@ -436,6 +441,7 @@
 ||igodigital.com^$important
 ||ihg.com.cn^$important
 ||iid.googleapis.com^$important
+||imasdk.googleapis.com^$important
 ||in-addr.arpa^$important
 ||in.appcenter.ms^$important
 ||indexww.com^$important
@@ -554,6 +560,7 @@
 ||onelink.me^$important
 ||onetrust.com^$important
 ||online-metrix.net^$important
+||oojoovae.org^$important
 ||optimizely.com^$important
 ||otherlevels.com^$important
 ||outbound.io^$important
@@ -566,6 +573,7 @@
 ||photorank.me^$important
 ||photos-ugc.l.googleusercontent.com^$important
 ||phraseapp.com^$important
+||phsa.ca^$important
 ||pieventscapture.americanexpress.com^$important
 ||pinimg.com^$important
 ||pki-goog.l.google.com^$important
@@ -590,6 +598,7 @@
 ||rpxnow.com^$important
 ||rqqft.com^$important
 ||ru.airbnb.com^$important
+||rum.rbc.com^$important
 ||safebrowsing.googleapis.com^$important
 ||scone-pa.googleapis.com^$important
 ||sdkclick.com^$important
@@ -617,6 +626,7 @@
 ||smetrics.td.com^$important
 ||snapengage.com^$important
 ||social.duolingo.com^$important
+||socialstat.rt.com^$important
 ||spatialbuzz.com^$important
 ||spatialbuzz.net^$important
 ||spike-app.com^$important
@@ -670,6 +680,7 @@
 ||useinsider.com^$important
 ||userleap.com^$important
 ||uxcam.com^$important
+||veryawesomeprivacy.org^$important
 ||vk.com^$important
 ||vn.kayak.com^$important
 ||vouchers.uber.com^$important
