@@ -159,6 +159,7 @@
 ||clientflow.apple.com^$important
 ||cstat.apple.com^$important
 ||dejavu.apple.com^$important
+||experiments.apple.com^$important
 ||exposure-notification.apple.com^$important
 ||exposure-notification.fe.apple-dns.net^$important
 ||fmf.fe.apple-dns.net^$important
