@@ -88,6 +88,7 @@
 # iTunes and Stocks
 @@||se-edge.itunes.apple.com
 @@||sf-api-token-service.itunes.apple.com
+@@||play.itunes.apple.com	
 @@||stocks-sparkline.apple.com
 
 # Telemetry Checkin (https://www.scss.tcd.ie/doug.leith/pubs/apple_google2.pdf)
