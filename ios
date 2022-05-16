@@ -16,12 +16,19 @@
 ||todo-ta-g7g.amazon.com^$important
 ||vaicore.site^$important
 
+# Audible Block Non-explicit tracking
+||api.audible.com^$important
+||media-amazon.com^$important
+||cde-ta-g7g.amazon.com^$important
+||arcus-uswest.amazon.com^$important
+
+
 # Misc Testing
-||ghs.googlehosted.com^$important
 ||aria.microsoft.com^$important
 ||data.microsoft.com^$important
 
 # Google (Breaks Google Cloud apps: Bolt Food)
+#||ghs.googlehosted.com^$important (Breaks Google Cloud)
 #||clients3.google.com^$important
 #||clients.l.google.com^$important
 
@@ -106,24 +113,7 @@
 @@||gs-loc.apple.com
 
 
-# =======================================================
-# AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
-# AdGuard's CTO did not side with his customers who pay for AdGuard. Instead, @ameshkov sided with devs who want to monitor their users.
-# AdGuard's Spyware/Tracking list explictly whitelists crashlytics and other services that track user interactions and crashes. Contrary to what one would expect - and contrary to what pricacy-oriented UblockOrigin's filters do. I.e. the right thing and block these trackers.
-# https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
-# =======================================================
-||app-measurement.com^$important
-||apptrace.com^$important
-||bugsnag.com^$important
-||crashlytics.com^$important
-||crashlytics2.l.google.com^$important
-||crashlyticsreports-pa.googleapis.com^$important
-||ensighten.com^important
-||split.io^important
-||firebaseio.com^important
-||opentelemetry.io^important
-||qcloud.com^$important
-||snssdk.com^$important
+
 
 # =======================================================
 # Non-Apple Whitelist
@@ -202,6 +192,33 @@
 ||weather-analytics-events.apple.com^$important
 ||xp.apple.com^$important
 
+
+# =======================================================
+# AdGuard's CTO sold out his customers/users: dishonorable act of @ameshkov
+# AdGuard's CTO did not side with his customers who pay for AdGuard. Instead, @ameshkov sided with devs who want to monitor their users.
+# AdGuard's Spyware/Tracking list explictly whitelists crashlytics and other services that track user interactions and crashes. Contrary to what one would expect - and contrary to what pricacy-oriented UblockOrigin's filters do. I.e. the right thing and block these trackers.
+# https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+# =======================================================
+
+||admob-app-id-*.firebaseio.com^$important
+||app-measurement.com^$important
+||apptrace.com^$important
+||bugsnag.com^$important
+||crashlytics.com^$important
+||crashlytics2.l.google.com^$important
+||crashlyticsreports-pa.googleapis.com^$important
+||ensighten.com^important
+||firebaseio.com^important
+||loganalytics.io^$important
+||opentelemetry.io^important
+||qcloud.com^$important
+||raygun.io^$important
+||signalfx.com^$important
+||snssdk.com^$important
+||split.io^important
+
+
+
 # =======================================================
 # EMAIL TRACKERS
 # =======================================================
@@ -226,6 +243,7 @@
 ||streak.com^$important
 ||toutapp.com^$important
 ||yesware.com^$important
+
 
 # =======================================================
 # Additional Privacy from Installed Apps
@@ -313,6 +331,7 @@
 ||bestdisplayformats.com^$important
 ||beyonduserpaid.api.intuit.com^$important
 ||biz.uber.com^$important
+||blackvuecloud.com^$important
 ||blast.duolingo.com^$important
 ||boingo.events^$important
 ||bonjour.uber.com^$important
@@ -334,7 +353,6 @@
 ||cn.kayak.com^$important
 ||cn.tripadvisor.com^$important
 ||conductrics.net^$important
-||config-partner-platform-client-933515454346.s3.amazonaws.com^$important
 ||confsettings.com^$important
 ||connect.facebook.net^$important
 ||connectivitycheck.gstatic.com^$important
@@ -342,6 +360,7 @@
 ||contentful.com^$important
 ||crashlytics.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
+||credit.finance.intuit.com^$important
 ||crittercism.com^$important
 ||crs-event.line.me^$important
 ||csi.gstatic.com^$important
@@ -589,6 +608,7 @@
 ||qbk1.com^$important
 ||qualtrics.com^$important
 ||quantummetric.com^$important
+||quickbooks.intuit.com^$important
 ||r.uber.com^$important
 ||reederapp.com^$important
 ||responsys.net^$important
