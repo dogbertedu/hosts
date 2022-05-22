@@ -18,10 +18,11 @@
 
 # Audible Block Non-explicit tracking
 ||api.audible.com^$important
-||media-amazon.com^$important
 ||cde-ta-g7g.amazon.com^$important
-||arcus-uswest.amazon.com^$important
 
+# Break Amzn Shopping app:
+#||arcus-uswest.amazon.com^$important
+#||media-amazon.com^$important
 
 # Misc Testing
 ||aria.microsoft.com^$important
