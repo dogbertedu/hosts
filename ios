@@ -96,8 +96,11 @@
 # iTunes and Stocks
 @@||se-edge.itunes.apple.com
 @@||sf-api-token-service.itunes.apple.com
-@@||play.itunes.apple.com	
+@@||play.itunes.apple.com
 @@||stocks-sparkline.apple.com
+
+# Breaks Shazam Song Recognition
+@@||init.itunes.apple.com
 
 # Telemetry Checkin (https://www.scss.tcd.ie/doug.leith/pubs/apple_google2.pdf)
 ||gsas.apple.com
@@ -165,7 +168,6 @@
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
 ||idiagnostics.apple.com^$important
-||init.itunes.apple.com^$important
 ||iphonesubmissions.apple.com^$important
 ||metrics.icloud.com^$important
 ||mt-ingestion-service-mr22.itunes-apple.com.akadns.net^$important
