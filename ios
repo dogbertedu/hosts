@@ -16,10 +16,6 @@
 ||todo-ta-g7g.amazon.com^$important
 ||vaicore.site^$important
 
-# Audible Block Non-explicit tracking
-||api.audible.com^$important
-||cde-ta-g7g.amazon.com^$important
-
 # Break Amzn Shopping app:
 #||arcus-uswest.amazon.com^$important
 #||media-amazon.com^$important
@@ -93,11 +89,18 @@
 # Facetime and iMessage
 @@||ess.apple.com
 
-# iTunes and Stocks
+# iTunes, Stocks, Weather
 @@||se-edge.itunes.apple.com
 @@||sf-api-token-service.itunes.apple.com
 @@||play.itunes.apple.com
+@@||stocks-edge.apple.com
 @@||stocks-sparkline.apple.com
+@@||stocks-edge.news.apple-dns.net
+@@||weather-edge.apple.com
+@@||c.apple.news
+
+# Apple's Package Tracking Service
+@@||trackingshipment.apple.com
 
 # Breaks Shazam Song Recognition
 @@||init.itunes.apple.com
@@ -117,20 +120,25 @@
 @@||gs-loc.apple.com
 
 
-
-
 # =======================================================
 # Non-Apple Whitelist
 # =======================================================
 @@||cloud.culturedcode.com
 @@||bolt.zendesk.com
 @@||ap.spotify.com
-@@||meditation-mobile.firebaseio.com
 @@||audio-fa.scdn.co
 @@||audio4-ak-spotify-com.akamaized.net
 @@||securetoken.googleapis.com
 @@||scdnco.spotify.map.fastly.net
 @@||omns.americanexpress.com
+
+
+# =======================================================
+# Google & Firebase Whitelist
+# =======================================================
+@@||meditation-mobile.firebaseio.com
+@@||moola-app-web.firebaseio.com
+@@||firebasedynamiclinks.googleapis.com
 
 
 # =======================================================
@@ -231,14 +239,9 @@
 ||adxcel.com^$important
 ||agilebits.com^$important
 ||agkn.com^
-||ajax.googleapis.com^$important
 ||alb-logs-http-rum-shard0-1655841446.us-east-1.elb.amazonaws.com^$important
 ||albtls.t.co^$important
 ||amazon-adsystem.com^$important
-||amazon.cn^$important
-||amazon.com.br^$important
-||amazon.nl^$important
-||amazon.sa^$important
 ||analytics.chase.com^$important
 ||apigee.com^$important
 ||app-measurement.com^$important
@@ -265,9 +268,7 @@
 ||bazaarvoice.com^$important
 ||bcnmonetize.com^$important
 ||bestdisplayformats.com^$important
-||beyonduserpaid.api.intuit.com^$important
 ||biz.uber.com^$important
-||blackvuecloud.com^$important
 ||blast.duolingo.com^$important
 ||boingo.events^$important
 ||bonjour.uber.com^$important
@@ -295,12 +296,10 @@
 ||confsettings.com^$important
 ||connect.facebook.net^$important
 ||connectivitycheck.gstatic.com^$important
-||consumerinsights.api.intuit.com^$important
 ||contentful.com^$important
 ||crashlytics.com^$important
 ||crashlytics2.l.google.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
-||credit.finance.intuit.com^$important
 ||crittercism.com^$important
 ||crs-event.line.me^$important
 ||csi.gstatic.com^$important
@@ -325,7 +324,6 @@
 ||duolingo.cn^$important
 ||duunion.com^$important
 ||dynatrace.com^$important
-||edge.experimentation.intuit.com^$important
 ||email-marriott.com^$important
 ||emb-api.com^$important
 ||ensighten.com^$important
@@ -336,12 +334,8 @@
 ||es.play.pl^$important
 ||espanol.marriott.com^$important
 ||eum-appdynamics.com^$important
-||eventbus.a.intuit.com^$important
-||eventbus.intuit.com^$important
-||eventgw.twilio.com
-||exacttarget.com^
-||experimentassignment.api.intuit.com^$important
-||experimentconfig.api.intuit.com^$important
+||eventgw.twilio.com^$important
+||exacttarget.com^$important
 ||facebook.com^$important
 ||faq.whatsapp.com^$important
 ||fcmtoken.googleapis.com^$important
@@ -352,16 +346,12 @@
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebasedynamiclinks.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
-||firebaseio.com^$important
-||firebaseio.com^important
 ||firebaselogging-pa.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
 ||firestore.googleapis.com^$important
 ||flo.uri.sh^$important
 ||flourish.studio^$important
 ||flybits.com^$important
-||fonts.googleapis.com^$important
-||fonts.gstatic.com^$important
 ||force.com^$important
 ||forter.com^$important
 ||fouadraheb.com^$important
@@ -381,7 +371,6 @@
 ||glbtls.t.co^$important
 ||glitteridentifiernavy.com^
 ||go-mpulse.net^
-||goals.api.intuit.com^$important
 ||google-analytics.com^$important
 ||google.dk^$important
 ||googleadservices.com^$important
@@ -447,31 +436,15 @@
 ||locuslabs.com^$important
 ||loganalytics.io^$important
 ||login.uber.com^$important
-||loungebuddy.okta.com^$important
 ||m.uber.com^$important
 ||mailchimp.com^$important
 ||mailtrack.io^$important
 ||mandrillapp.com^$important
-||mapbox.com^$important
-||maps.google.ch^$important
-||maps.google.co.id^$important
-||maps.google.co.th^$important
-||maps.google.com.au^$important
-||maps.google.com.br^$important
-||maps.google.com.mx^$important
-||maps.google.dk^$important
-||maps.google.es^$important
-||maps.google.fr^$important
-||maps.google.it^$important
-||maps.google.nl^$important
-||maps.google.se^$important
 ||marketing.kijiji.ca^$important
 ||marketingcloudapis.com^$important
 ||media-412.com^$important
 ||metrics-prod.barclaycardus.com^$important
 ||metrics.barclaycardus.com^$important
-||mintbillpayapi.finance.intuit.com^$important
-||miro92.com^$important
 ||mixpanel.com^$important
 ||mob193.com^$important
 ||mobgc.com^$important
@@ -510,7 +483,7 @@
 ||pat.td.com^$important
 ||peakonspot.com^$important
 ||perimeterx.net^$important
-||pf.intuit.com^
+||pf.intuit.com^$important
 ||photorank.me^$important
 ||photos-ugc.l.googleusercontent.com^$important
 ||phraseapp.com^$important
@@ -521,7 +494,6 @@
 ||platform.twitter.com^$important
 ||play.googleapis.com^$important
 ||plcontent.com^$important
-||plugin.intuitcdn.net^$important
 ||plus.uber.com^$important
 ||postmarkapp.com^$important
 ||prf.hn^$important
@@ -531,7 +503,6 @@
 ||qcloud.com^$important
 ||qualtrics.com^$important
 ||quantummetric.com^$important
-||quickbooks.intuit.com^$important
 ||r.uber.com^$important
 ||raygun.io^$important
 ||reederapp.com^$important
@@ -545,7 +516,7 @@
 ||rpxnow.com^$important
 ||rqqft.com^$important
 ||ru.airbnb.com^$important
-||rum.api.intuit.com^
+||rum.api.intuit.com^$important
 ||rum.rbc.com^$important
 ||safebrowsing.googleapis.com^$important
 ||scone-pa.googleapis.com^$important
@@ -562,15 +533,7 @@
 ||shuga.co^$important
 ||siftscience.com^$important
 ||signalfx.com^$important
-||sixt.at^$important
-||sixt.be^$important
-||sixt.ch^$important
-||sixt.co.uk^$important
-||sixt.es^$important
-||sixt.fr^$important
 ||skipper.tech^$important
-||smartlinks-e2e.intuit.com^$important
-||smartlinks.intuit.com^$important
 ||smartlock.google.com^$important
 ||smetrics.td.com^$important
 ||snapengage.com^$important
@@ -581,7 +544,6 @@
 ||spatialbuzz.net^$important
 ||spike-app.com^$important
 ||split.io^$important
-||split.io^important
 ||splkmobile.com^$important
 ||spykemedia.g2afse.com^$important
 ||stickershop.line-scdn.net^$important
@@ -606,25 +568,10 @@
 ||tiqcdn.com^$important
 ||tlnk.io^$important
 ||toutapp.com^$important
-||tripadvisor.ch^$important
-||tripadvisor.co.kr^$important
-||tripadvisor.com.au^$important
-||tripadvisor.com.br^$important
-||tripadvisor.com.eg^$important
-||tripadvisor.com.my^$important
-||tripadvisor.com.ph^$important
-||tripadvisor.com.tr^$important
-||tripadvisor.com.tw^$important
-||tripadvisor.cz^$important
-||tripadvisor.fi^$important
-||tripadvisor.nl^$important
 ||trksontrks.com^$important
 ||turbointerview.api.intuit.com^$important
-||tw.hotels.com^$important
-||tw.kayak.com^$important
 ||ubr.to^$important
 ||udc.yahoo.com^
-||uk.hotels.com^$important
 ||unionapps.info^$important
 ||upgulpinon.com^$important
 ||urbanairship.com^$important
@@ -637,8 +584,6 @@
 ||vn.kayak.com^$important
 ||vouchers.uber.com^$important
 ||w-tracking.com^$important
-||web-dev.sixt.io^$important
-||web-stage.sixt.io^$important
 ||wurfl.io^
 ||x.klarnacdn.net^$important
 ||x.uber.com^$important
@@ -652,3 +597,4 @@
 ||zendesk.com^$important
 ||zimperium.com^$important
 ||zoomd.com^$important
+||lokalise.co^$important
