@@ -140,6 +140,9 @@
 @@||moola-app-web.firebaseio.com
 @@||firebasedynamiclinks.googleapis.com
 
+# Required for Google Voice calling
+@@||play.googleapis.com^$important
+
 
 # =======================================================
 # Apple Privacy
@@ -492,7 +495,6 @@
 ||pinimg.com^$important
 ||pki-goog.l.google.com^$important
 ||platform.twitter.com^$important
-||play.googleapis.com^$important
 ||plcontent.com^$important
 ||plus.uber.com^$important
 ||postmarkapp.com^$important
