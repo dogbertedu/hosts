@@ -214,14 +214,53 @@
 # https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # =======================================================
 
+||admob-app-id-*.firebaseio.com^$important
+||app-measurement.com^$important
+||apptrace.com^$important
+||bugsnag.com^$important
+||crashlytics.com^$important
+||crashlytics2.l.google.com^$important
+||crashlyticsreports-pa.googleapis.com^$important
+||ensighten.com^important
+||firebaseio.com^important
+||loganalytics.io^$important
+||opentelemetry.io^important
+||qcloud.com^$important
+||raygun.io^$important
+||signalfx.com^$important
+||snssdk.com^$important
+||split.io^important
 
-
-
+	
+# =======================================================
+# EMAIL TRACKERS
+# =======================================================
+||bananatag.com^$important
+||boomeranggmail.com^$important
+||cirrusinsight.com^$important
+||frontapp.com^$important
+||getsidekick.com^$important
+||hubspot.com^$important
+||icontact.com^$important
+||infusionsoft.com^$important
+||intercom.io^$important
+||launchbit.com^$important
+||mailchimp.com^$important
+||mailtrack.io^$important
+||mandrillapp.com^$important
+||mixpanel.com^$important
+||outreach.io
+||postmarkapp.com^$important
+||relateiq.com^$important
+||rjmetrics.com^$important
+||streak.com^$important
+||toutapp.com^$important
+||yesware.com^$important
 
 
 # =======================================================
 # Additional Privacy from Installed Apps
-# EMAIL TRACKERS
+# =======================================================
 ||1password.com^$important
 ||3drating.com^$important
 ||4sqi.net^$important
@@ -419,6 +458,7 @@
 ||it.hotels.com^$important
 ||iterable.com^$important
 ||janraincapture.com^$important
+||jnn-pa.googleapis.com^$important
 ||jumpraw.com^$important
 ||kay.ac^$important
 ||komect.com^$important
@@ -440,6 +480,7 @@
 ||locuslabs.com^$important
 ||loganalytics.io^$important
 ||login.uber.com^$important
+||lokalise.co^$important
 ||m.uber.com^$important
 ||mailchimp.com^$important
 ||mailtrack.io^$important
@@ -522,6 +563,7 @@
 ||ru.airbnb.com^$important
 ||rum.api.intuit.com^$important
 ||rum.rbc.com^$important
+||s.youtube.com^$important
 ||safebrowsing.googleapis.com^$important
 ||scone-pa.googleapis.com^$important
 ||sdkclick.com^$important
@@ -602,4 +644,3 @@
 ||zendesk.com^$important
 ||zimperium.com^$important
 ||zoomd.com^$important
-||lokalise.co^$important
