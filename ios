@@ -297,6 +297,7 @@
 ||appm.app^$important
 ||appromoters.com^$important
 ||appsflyer.com^$important
+||appsflyersdk.com^
 ||apptentive.com^$important
 ||apptimize.com^$important
 ||apptocash.com^$important
@@ -490,6 +491,7 @@
 ||media-412.com^$important
 ||metrics-prod.barclaycardus.com^$important
 ||metrics.barclaycardus.com^$important
+||midas.chase.com^
 ||mixpanel.com^$important
 ||mob193.com^$important
 ||mobgc.com^$important
@@ -513,6 +515,7 @@
 ||omns.americanexpress.com^
 ||omtrdc.net^$important
 ||onelink.me^$important
+||onesignal.com^
 ||onetrust.com^$important
 ||online-metrix.net^
 ||online-metrix.net^$important
@@ -543,6 +546,7 @@
 ||prf.hn^$important
 ||privatestats.whatsapp.net^$important
 ||prizelogic.com^$important
+||push.rollout.io^
 ||qbk1.com^$important
 ||qcloud.com^$important
 ||qualtrics.com^$important
@@ -566,11 +570,13 @@
 ||s.youtube.com^$important
 ||safebrowsing.googleapis.com^$important
 ||scone-pa.googleapis.com^$important
+||sdk.waze.com^$important
 ||sdkclick.com^$important
 ||sdkclickurl.com^$important
 ||secure.analytics.ihg.com^$important
 ||securetoken.googleapis.com^$important
 ||segment.com^$important
+||sentry.io^
 ||seven.app^$important
 ||sevmob.com^$important
 ||sgdmobile.com^$important
@@ -644,4 +650,3 @@
 ||zendesk.com^$important
 ||zimperium.com^$important
 ||zoomd.com^$important
-||sdk.waze.com^$important
