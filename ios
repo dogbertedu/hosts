@@ -137,9 +137,7 @@
 # =======================================================
 # Google & Firebase Whitelist
 # =======================================================
-@@||meditation-mobile.firebaseio.com
-@@||moola-app-web.firebaseio.com
-@@||firebasedynamiclinks.googleapis.com
+! @@||firebasedynamiclinks.googleapis.com
 
 # Required for Google Voice calling
 @@||play.googleapis.com^$important
@@ -222,7 +220,6 @@
 ||crashlytics2.l.google.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
 ||ensighten.com^important
-||firebaseio.com^important
 ||loganalytics.io^$important
 ||opentelemetry.io^important
 ||qcloud.com^$important
