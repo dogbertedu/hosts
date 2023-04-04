@@ -28,6 +28,7 @@
 #||ghs.googlehosted.com^$important (Breaks Google Cloud)
 #||clients3.google.com^$important
 #||clients.l.google.com^$important
+#||mobilemaps-pa-gz.googleapis.com^$important (breaks Google Maps images)
 
 # Apple Testing pre-2023
 ||a1838.dscb.akamai.net^$important
@@ -44,7 +45,6 @@
 ||inappcheck.itunes.apple.com^$important
 ||keyvalueservice.fe.apple-dns.net^$important
 ||keyvalueservice.icloud.com^$important
-||mobilemaps-pa-gz.googleapis.com^$important
 ||p62-keyvalueservice.icloud.com^$important
 ||ppq-new-st.oa-apple.com.akadns.net^$important
 ||sandbox.itunes-apple.com.akadns.net^$important
