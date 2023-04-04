@@ -7,9 +7,9 @@
 # =======================================================
 
 # Audible Tracking
+#||dewrain.life^$important - breaks Audible
 ||akisinn.info^$important
 ||akisinn.site^$important
-||dewrain.life^$important
 ||dewrain.site^$important
 ||msh.amazon.com^$important
 ||sansa.audible.com^$important
@@ -29,7 +29,7 @@
 #||clients3.google.com^$important
 #||clients.l.google.com^$important
 
-# Apple Testing
+# Apple Testing pre-2023
 ||a1838.dscb.akamai.net^$important
 ||apple-dns.net^$important
 ||client-api.itunes.apple.com^$important
@@ -49,6 +49,15 @@
 ||ppq-new-st.oa-apple.com.akadns.net^$important
 ||sandbox.itunes-apple.com.akadns.net^$important
 ||sandbox.itunes.apple.com^$important
+
+
+# Apple Testing 2023.03
+||websitereview.corp.apple.com^$important
+||certs.g.aaplimg.com^$important
+||certs.apple.com^$important
+||mask-h2.icloud.com^$important
+||mask.icloud.com^$important
+
 
 # =======================================================
 # Apple Revokes
@@ -263,6 +272,7 @@
 ||4sqi.net^$important
 ||_udp.Home^$important
 ||a.line.me^$important
+||a1744.dscw154.akamai.net^$important
 ||acxiom.com^$important
 ||adj.st^$important
 ||adjust.com^$important
@@ -278,10 +288,13 @@
 ||adxcel.com^$important
 ||agilebits.com^$important
 ||agkn.com^
+||agoo-report.m.taobao.com^$important
 ||alb-logs-http-rum-shard0-1655841446.us-east-1.elb.amazonaws.com^$important
 ||albtls.t.co^$important
 ||amazon-adsystem.com^$important
+||amazonaax.com^$important
 ||analytics.chase.com^$important
+||api.shenyin.name^$important
 ||apigee.com^$important
 ||app-measurement.com^$important
 ||app.adjust.net.in^$important
@@ -308,8 +321,10 @@
 ||bazaarvoice.com^$important
 ||bcnmonetize.com^$important
 ||bestdisplayformats.com^$important
+||beyonduserpaid.api.intuit.com^$important
 ||biz.uber.com^$important
 ||blast.duolingo.com^$important
+||blog.mint.com^$important
 ||boingo.events^$important
 ||bonjour.uber.com^$important
 ||boomeranggmail.com^$important
@@ -329,6 +344,7 @@
 ||clevertap-prod.com^$important
 ||cloudcheck.net^$important
 ||cloudconfig.googleapis.com^$important
+||cloudflareinsights.com^$important
 ||cloudmobi.net^$important
 ||cn.kayak.com^$important
 ||cn.tripadvisor.com^$important
@@ -336,16 +352,19 @@
 ||confsettings.com^$important
 ||connect.facebook.net^$important
 ||connectivitycheck.gstatic.com^$important
+||consumerinsights.api.intuit.com^$important
 ||contentful.com^$important
 ||crashlytics.com^$important
 ||crashlytics2.l.google.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
+||credit.finance.intuit.com^$important
 ||crittercism.com^$important
 ||crs-event.line.me^$important
 ||csi.gstatic.com^$important
 ||culturedcode.com
 ||d.dropbox.com^$important
 ||datadoghq.com^$important
+||datadoghq.eu^$important
 ||datatask.net^$important
 ||delivery.bird.co^$important
 ||demdex.net^$important
@@ -354,6 +373,7 @@
 ||device-provisioning.googleapis.com^$important
 ||dmsa.egslb.net.rogers.com^$important
 ||dns.google.com^$important
+||dns.google^$important
 ||doorcrawl.com^$important
 ||doubleclick.net^$important
 ||doublerew.net^$important
@@ -368,6 +388,7 @@
 ||emb-api.com^$important
 ||ensighten.com^$important
 ||ensighten.com^important
+||entrust.net^$important
 ||es.airbnb.com^$important
 ||es.hoteles.com^$important
 ||es.kayak.com^$important
@@ -412,6 +433,7 @@
 ||glbtls.t.co^$important
 ||glitteridentifiernavy.com^
 ||go-mpulse.net^
+||goals.api.intuit.com^$important
 ||google-analytics.com^$important
 ||google.dk^$important
 ||googleadservices.com^$important
@@ -439,12 +461,12 @@
 ||igexin.com^$important
 ||igodigital.com^$important
 ||ihg.com.cn^$important
-||iid.googleapis.com^$important
 ||imasdk.googleapis.com^$important
 ||in-addr.arpa^$important
 ||in.appcenter.ms^$important
 ||indexww.com^$important
 ||infusionsoft.com^$important
+||ingress.alibabacorp.com.gds.alibabadns.com^$important
 ||instabug.com^$important
 ||instagram.com^$important
 ||intercom.io^$important
@@ -465,6 +487,7 @@
 ||lb._dns-sd._udp.edimax.com^$important
 ||lb._dns-sd._udp.localdomain^$important
 ||leadzuaf.com^$important
+||lencr.org^$important
 ||limneos.net^$important
 ||link.sudoapp.me^$important
 ||links.doordash.com^$important
@@ -489,6 +512,7 @@
 ||metrics-prod.barclaycardus.com^$important
 ||metrics.barclaycardus.com^$important
 ||midas.chase.com^
+||mintbillpayapi.finance.intuit.com^$important
 ||mixpanel.com^$important
 ||mob193.com^$important
 ||mobgc.com^$important
@@ -499,6 +523,7 @@
 ||mobismarter.com^$important
 ||moblin.com^$important
 ||moboclick09.com^$important
+||mof.moca.vn^$important
 ||monitoring-sdk.experimentation.intuit.com^$important
 ||movieboxpro.app^$important
 ||mparticle.com^$important
@@ -508,6 +533,8 @@
 ||nextinsure.com^$important
 ||nz.kayak.com^$important
 ||o5o4o6.com^$important
+||ocsp.comodoca.com.cdn.cloudflare.net^$important
+||ocsp.sectigo.com^$important
 ||offerstrack.net^$important
 ||omns.americanexpress.com^
 ||omtrdc.net^$important
@@ -548,6 +575,7 @@
 ||qcloud.com^$important
 ||qualtrics.com^$important
 ||quantummetric.com^$important
+||quickbooks.intuit.com^$important
 ||r.uber.com^$important
 ||raygun.io^$important
 ||reederapp.com^$important
@@ -571,9 +599,10 @@
 ||sdkclick.com^$important
 ||sdkclickurl.com^$important
 ||secure.analytics.ihg.com^$important
-||securetoken.googleapis.com^$important
 ||segment.com^$important
+||segment.io^$important
 ||sentry.io^
+||servedbyivo.com^$important
 ||seven.app^$important
 ||sevmob.com^$important
 ||sgdmobile.com^$important
