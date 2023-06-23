@@ -35,13 +35,9 @@
 ||apple-dns.net^$important
 ||client-api.itunes.apple.com^$important
 ||configuration.apple.com.akadns.net^$important
-||developerservices2.apple.com^$important
-||developerservices2.v.aaplimg.com^$important
 ||doh.dns.apple.com.v.aaplimg.com^$important
 ||doh.dns.apple.com^$important
 ||geoar.googleapis.com^$important
-||gsa.apple.com^$important
-||gsa.idms-apple.com.akadns.net^$important
 ||inappcheck.itunes.apple.com^$important
 ||keyvalueservice.fe.apple-dns.net^$important
 ||keyvalueservice.icloud.com^$important
@@ -58,13 +54,15 @@
 ||mask-h2.icloud.com^$important
 ||mask.icloud.com^$important
 
+# Apple Testing 2023.06
+/^(.+[_.-])?lb._dns-sd*[_.-]/
+
 
 # =======================================================
 # Apple Revokes
 # =======================================================
 ||gdmf.apple.com^$important
 ||iadsdk.apple.com^$important
-||mesu.apple.com^$important
 ||ocsp.apple.com^$important
 ||ocsp.digicert.com^$important
 ||ocsp.usertrust.com^$important
@@ -77,20 +75,22 @@
 # =======================================================
 # Apple iOS domains guide
 # =======================================================
-#mesu.apple.com 						Software update
+#mesu.apple.com 				Software update
 #smp-device-content.apple.com 	Apple Pay (and Location Services?)
 #configuration.ls.apple.com	Location services incl Weather app
 #bag.itunes.apple.com 			AppStore purchases
 #play.itunes.apple.com			AppStore purchases (Breaks Podcasts App)
 #amp-api.apps.apple.com			AppStore purchase
 #sf-api-token-service.itunes.apple.com			AppStore purchases
-#gsa.apple.com							AltStore signing process
-#xp.apple.com 							Telemetry / Malware: Pre-iOS14 broke apple services and made phone slow
+#gsa.apple.com					AltStore signing process
+#xp.apple.com 					Telemetry / Malware: Pre-iOS14 broke apple services and made phone slow
 #ess.apple.com 							Facetime and iMessage
 #gateway.icloud.com					FindMy Network Participation (among others)
 #setup.icloud.com						Requires contact, else re-signi-in into iCloud prompts
 #setup.fe.apple-dns.net			Same as 'setup.icloud.com'
 #configuration.apple.com		Allows to toggle iCloud settings in Settings	
+#developerservices2.apple.com 	AltStore signing process
+
 
 # =======================================================
 # Apple Whitelist from other lists
@@ -107,6 +107,7 @@
 @@||stocks-edge.news.apple-dns.net
 @@||weather-edge.apple.com
 @@||c.apple.news
+@@||carrierbundle.itunes.apple.com
 
 # Apple's Package Tracking Service
 @@||trackingshipment.apple.com
@@ -294,6 +295,7 @@
 ||amazon-adsystem.com^$important
 ||amazonaax.com^$important
 ||analytics.chase.com^$important
+||api.adguard.io^$important
 ||api.shenyin.name^$important
 ||apigee.com^$important
 ||app-measurement.com^$important
@@ -308,6 +310,7 @@
 ||appromoters.com^$important
 ||appsflyer.com^$important
 ||appsflyersdk.com^
+||appspot.com^$important
 ||apptentive.com^$important
 ||apptimize.com^$important
 ||apptocash.com^$important
@@ -430,6 +433,7 @@
 ||ghost.io^$important
 ||glance.net^$important
 ||glassboxcloud.com^$important
+||glassboxdigital.io^$important
 ||glbtls.t.co^$important
 ||glitteridentifiernavy.com^
 ||go-mpulse.net^
@@ -517,6 +521,7 @@
 ||mob193.com^$important
 ||mobgc.com^$important
 ||mobile-api.adguard.com^$important
+||mobile-api.adguard.org^$important
 ||mobile-bt.com^$important
 ||mobileapptracking.com^$important
 ||mobilegames.com^$important
@@ -530,9 +535,11 @@
 ||mtalk.google.com^$important
 ||mychelsea.co.uk^$important
 ||myfonts.net^$important
+||nelo.linecorp.com^$important
 ||nextinsure.com^$important
 ||nz.kayak.com^$important
 ||o5o4o6.com^$important
+||obs.line-scdn.net^$important
 ||ocsp.comodoca.com.cdn.cloudflare.net^$important
 ||ocsp.sectigo.com^$important
 ||offerstrack.net^$important
@@ -580,6 +587,7 @@
 ||raygun.io^$important
 ||reederapp.com^$important
 ||relateiq.com^$important
+||resolver.arpa^$important
 ||responsys.net^$important
 ||rfrl.pw^$important
 ||ritual.zendesk.com^$important
@@ -663,6 +671,7 @@
 ||vn.kayak.com^$important
 ||vouchers.uber.com^$important
 ||w-tracking.com^$important
+||whoami.adguard-vpn.online^$important
 ||wurfl.io^
 ||x.klarnacdn.net^$important
 ||x.uber.com^$important
