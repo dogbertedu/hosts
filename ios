@@ -95,6 +95,10 @@
 # =======================================================
 # Apple Whitelist from other lists
 # =======================================================
+
+# Software Updates (Airpods, Airtags, iOS)
+@@||mesu.apple.com
+
 # Facetime and iMessage
 @@||ess.apple.com
 
