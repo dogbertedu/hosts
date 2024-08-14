@@ -9,7 +9,7 @@ twitter.com,x.com##article [d$="2.66 6 1H5z"]:upward(article)
 
 !Timeline sections
 ! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
-twitter.com,x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(border:red dotted 4px !important)
+twitter.com,x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"]))
 ! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
 twitter.com,x.com##[aria-label$="’s posts"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
 
