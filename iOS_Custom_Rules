@@ -1,53 +1,46 @@
 ! Twitter: https://old.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_twitter
 
-!Suggested tweets
-! Follow/Recommended Topic | "[Name of Topic] See more"
-twitter.com,x.com##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article)
-! You might like (Suggested tweet)
-twitter.com,x.com##article [d$="2.66 6 1H5z"]:upward(article)
+! Twitter/X - Clean Timelines - See Only Tweets/Posts, No Inserts
+twitter.com,x.com##[aria-label^="Timeline:"] [data-testid="cellInnerDiv"]:not(:has(article, [href^="/i/status/"], [role="progressbar"],>div>button))
 
-
-!Timeline sections
-! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
-twitter.com,x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"]))
-! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
-twitter.com,x.com##[aria-label$="’s posts"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
-
-!Analytics
 ! Analytics/Views button on tweets
 twitter.com,x.com##article [role=group] [href$="/analytics"]:upward(div:not(:only-child))
 ! Views - the new placement in conversation view
 twitter.com,x.com##[aria-label="Timeline: Conversation"] [href*="/status/"] ~ span
 
-!Interaction spam
-! [User] follows
-!twitter.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article):style(border: cyan dotted 5px !important)
-! [User] liked
-!twitter.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article):style(border:blue 5px dotted !important)
-! [User] Retweeted
-!twitter.com##:is([aria-label="Timeline: Your Home Timeline"], [aria-label$="’s posts"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/))):style(border: yellow dotted 5px !important)
-! [User] recieved a reply
-!twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/)):style(border: lightgreen 5px dotted !important)
-!twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div:style(border: lightgreen 5px dotted !important)
-! [User] recieved replies
-!twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replies$/)):style(border: green 5px dotted !important)
-!twitter.com##article>div:first-child:not(:last-child):upward([style*="position: absolute"]):style(border: 5px dotted orange !important)
-! [User] replied
-!twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/)):style(border: violet 5px dotted !important)
-!twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))+div:style(border: violet 5px dotted !important)
+! Twitter/X - [User] Retweeted/Reposted (excludes own retweets)
+twitter.com,x.com##[aria-label^="Timeline:"] [data-testid="cellInnerDiv"]:has([d^="M4.75 3.79l4.603"]):not(:has([data-testid="unretweet"]))
 
-!Sidebar
-! Get verified
+! Twitter/X - "Official" label on posts and profiles
+twitter.com,x.com##[src$="/verified_stroke_1.png"]:upward(div:not(:empty)+div:last-of-type):style(border: dotted 2px grey !important;)
+
+! Twitter/X - Like and Retweet counts // Remove ` [data-testid="app-text-transition-container"]` to hide entire buttons
+twitter.com,x.com##[data-testid="retweet"] [data-testid="app-text-transition-container"], [data-testid="like"] [data-testid="app-text-transition-container"]
+
+! Twitter/X - Discover more / More Tweets - Conversation view suggestions
+twitter.com,x.com##[aria-label="Timeline: Conversation"] :is([data-testid="cellInnerDiv"]:has(h2:not(:only-child)), [data-testid="cellInnerDiv"]:has(h2:not(:only-child))~div)
+
+
+! Twitter/X - Hidden posts - hide "Show additional replies" or "This tweet is from an account you've blocked/muted"
+twitter.com,x.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] article [role="button"]:not([aria-label]):upward([data-testid="cellInnerDiv"])
+
+! Twitter/X - Get verified
 twitter.com,x.com##[aria-label="Get Verified"]    
-! Live spaces
+! Twitter/X - Live spaces
 twitter.com,x.com##[data-testid="sidebarColumn"] [data-testid="placementTracking"]:last-child:upward(1) 
-! Sidebar - Topics to follow
+! Twitter/X - Sidebar - Topics to follow
 twitter.com,x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
-! Sidebar - What's happening/Trending now/Trends for you
+! Twitter/X - Sidebar - What's happening/Trending now/Trends for you
 twitter.com,x.com##[aria-label$="trending now" i]
-! Sidebar - Who to follow/You might like
+! Twitter/X - Sidebar - Who to follow/You might like
 twitter.com,x.com##[aria-label="who to follow" i]:upward(1)
 
+! Login dialog
+twitter.com,x.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+twitter.com,x.com##html:style(overflow: auto !important;)
+
+! App suggestion overlay
+twitter.com,x.com###layers>div:last-of-type:has-text(Switch to the app)
 
 
 ! TWITTER - DIM CUSTOM
