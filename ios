@@ -32,17 +32,17 @@
 
 # Apple Testing pre-2023
 ||a1838.dscb.akamai.net^$important
-||apple-dns.net^$important
-||client-api.itunes.apple.com^$important
-||configuration.apple.com.akadns.net^$important
-||doh.dns.apple.com.v.aaplimg.com^$important
-||doh.dns.apple.com^$important
+#||apple-dns.net^$important
+#||client-api.itunes.apple.com^$important
+#||configuration.apple.com.akadns.net^$important
+#||doh.dns.apple.com.v.aaplimg.com^$important
+#||doh.dns.apple.com^$important
 ||geoar.googleapis.com^$important
-||inappcheck.itunes.apple.com^$important
-||keyvalueservice.fe.apple-dns.net^$important
-||keyvalueservice.icloud.com^$important
-||p62-keyvalueservice.icloud.com^$important
-||ppq-new-st.oa-apple.com.akadns.net^$important
+#||inappcheck.itunes.apple.com^$important
+#||keyvalueservice.fe.apple-dns.net^$important
+#||keyvalueservice.icloud.com^$important
+#||p62-keyvalueservice.icloud.com^$important
+#||ppq-new-st.oa-apple.com.akadns.net^$important
 ||sandbox.itunes-apple.com.akadns.net^$important
 ||sandbox.itunes.apple.com^$important
 
@@ -51,8 +51,8 @@
 ||websitereview.corp.apple.com^$important
 ||certs.g.aaplimg.com^$important
 ||certs.apple.com^$important
-||mask-h2.icloud.com^$important
-||mask.icloud.com^$important
+#||mask-h2.icloud.com^$important
+#||mask.icloud.com^$important
 
 # Apple Testing 2023.06
 /^(.+[_.-])?lb._dns-sd*[_.-]/
@@ -61,14 +61,14 @@
 # =======================================================
 # Apple Revokes
 # =======================================================
-||gdmf.apple.com^$important
+# ||gdmf.apple.com^$important
 ||iadsdk.apple.com^$important
 ||ocsp.apple.com^$important
 ||ocsp.digicert.com^$important
 ||ocsp.usertrust.com^$important
 ||ocsp2.apple.com^$important
 ||ocsp2.g.aaplimg.com^$important
-||ppq.apple.com^$important
+# ||ppq.apple.com^$important
 ||valid.apple.com^$important
 ||world-gen.g.aaplimg.com^$important
 
@@ -185,12 +185,12 @@
 ||experiments.apple.com^$important
 ||exposure-notification.apple.com^$important
 ||exposure-notification.fe.apple-dns.net^$important
-||fmf.fe.apple-dns.net^$important
-||fmfmobile.fe.apple-dns.net^$important
-||fmip.fe.apple-dns.net^$important
-||fmipmobile.fe.apple-dns.net^$important
-||gateway.fe.apple-dns.net^$important
-||gateway.icloud.com^$important
+#||fmf.fe.apple-dns.net^$important
+#||fmfmobile.fe.apple-dns.net^$important
+#||fmip.fe.apple-dns.net^$important
+#||fmipmobile.fe.apple-dns.net^$important
+#||gateway.fe.apple-dns.net^$important
+#||gateway.icloud.com^$important
 ||health.apple.com^$important
 ||humb.apple.com^$important
 ||iadsdk.apple.com^$important
@@ -199,10 +199,10 @@
 ||metrics.icloud.com^$important
 ||mt-ingestion-service-mr22.itunes-apple.com.akadns.net^$important
 ||mt-ingestion-service-pv.itunes-apple.com.akadns.net^$important
-||p62-fmf.icloud.com^$important
-||p62-fmfmobile.icloud.com^$important
-||p62-fmip.icloud.com^$important
-||p62-fmipmobile.icloud.com^$important
+#||p62-fmf.icloud.com^$important
+#||p62-fmfmobile.icloud.com^$important
+#||p62-fmip.icloud.com^$important
+#||p62-fmipmobile.icloud.com^$important
 ||pancake.apple.com^$important
 ||partiality.itunes.apple.com^$important
 ||pd.itunes.apple.com^$important
@@ -275,7 +275,7 @@
 # =======================================================
 # Additional Privacy from Installed Apps
 # =======================================================
-||1password.com^$important
+#||1password.com^$important
 ||3drating.com^$important
 ||4sqi.net^$important
 ||_udp.Home^$important
