@@ -494,8 +494,8 @@
 ||komect.com^$important
 ||launchbit.com^$important
 ||launchdarkly.com^$important
-||lb._dns-sd._udp.edimax.com^$important
-||lb._dns-sd._udp.localdomain^$important
+#||lb._dns-sd._udp.edimax.com^$important
+#||lb._dns-sd._udp.localdomain^$important
 ||leadzuaf.com^$important
 ||limneos.net^$important
 ||link.sudoapp.me^$important
