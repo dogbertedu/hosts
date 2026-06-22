@@ -168,11 +168,11 @@
 ||api.books.apple.com^$important
 ||amp-api-books-lb.itunes-apple.com.akadns.net^$important
 ||amp-api.books.apple.com^$important
-||api.smoot-apple.com.akadns.net^$important
-||app-site-association.cdn-apple.com^$important
-||app-site-association.g.aaplimg.com^$important
+#||api.smoot-apple.com.akadns.net^$important
+#||app-site-association.g.aaplimg.com^$important
+#||app-site-association.cdn-apple.com^$important
 ||apple.comscoreresearch.com^$important
-||bag-smoot.v.aaplimg.com^$important
+#||bag-smoot.v.aaplimg.com^$important
 ||bookkeeper.itunes.apple.com^$important
 ||books-analytics-events.apple.com^$important
 ||books-analytics-events.news.apple-dns.net^$important
@@ -213,7 +213,7 @@
 ||safebrowsing-proxy.g.aaplimg.com^$important
 ||safebrowsing.apple^$important
 ||silverbullet-external-ats.itunes.apple.com^$important
-||smoot.apple.com^$important
+#||smoot.apple.com^$important
 ||stocks-analytics-events.apple.com^$important
 ||swallow-apple-com.v.aaplimg.com^$important
 ||swallow.apple.com^$important
@@ -413,9 +413,9 @@
 ||feedmob.com^$important
 ||fi.kayak.com^$important
 ||firebaseappcheck.googleapis.com^$important
-||firebasedynamiclinks-ipv4.googleapis.com^$important
-||firebasedynamiclinks-ipv6.googleapis.com^$important
-||firebasedynamiclinks.googleapis.com^$important
+#||firebasedynamiclinks-ipv4.googleapis.com^$important
+#||firebasedynamiclinks-ipv6.googleapis.com^$important
+#||firebasedynamiclinks.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
 ||firebaselogging-pa.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
@@ -472,7 +472,7 @@
 ||igodigital.com^$important
 ||ihg.com.cn^$important
 ||imasdk.googleapis.com^$important
-||in-addr.arpa^$important
+#||in-addr.arpa^$important
 ||in.appcenter.ms^$important
 ||indexww.com^$important
 ||infusionsoft.com^$important
@@ -497,7 +497,6 @@
 ||lb._dns-sd._udp.edimax.com^$important
 ||lb._dns-sd._udp.localdomain^$important
 ||leadzuaf.com^$important
-||lencr.org^$important
 ||limneos.net^$important
 ||link.sudoapp.me^$important
 ||links.doordash.com^$important
