@@ -55,7 +55,7 @@
 #||mask.icloud.com^$important
 
 # Apple Testing 2023.06
-/^(.+[_.-])?lb._dns-sd*[_.-]/
+#/^(.+[_.-])?lb._dns-sd*[_.-]/
 
 
 # =======================================================
@@ -592,7 +592,7 @@
 ||raygun.io^$important
 ||reederapp.com^$important
 ||relateiq.com^$important
-||resolver.arpa^$important
+#||resolver.arpa^$important
 ||responsys.net^$important
 ||rfrl.pw^$important
 ||ritual.zendesk.com^$important
